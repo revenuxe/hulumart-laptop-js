@@ -187,7 +187,7 @@ export function DeviceSearch() {
           <Link
             key={brand.slug}
             href={`/sell/laptop/${brand.slug}`}
-            className="flex min-h-[92px] flex-col items-center justify-center gap-3 rounded-[20px] border border-primary/15 bg-card px-2 py-3 text-center text-[11px] font-medium shadow-[0_3px_8px_-4px_rgba(15,23,42,0.2)] transition-colors hover:border-primary/50 hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary sm:min-h-[100px] sm:text-xs"
+            className="flex min-h-[92px] flex-col items-center justify-center gap-3 rounded-[20px] border border-blue-100 bg-white px-2 py-3 text-center text-[11px] font-medium text-slate-900 shadow-[0_3px_8px_-4px_rgba(15,23,42,0.2)] transition-colors hover:border-blue-300 hover:bg-blue-50 hover:text-slate-900 active:border-blue-400 active:bg-blue-100 active:text-slate-900 focus-visible:bg-blue-50 focus-visible:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-blue-600 sm:min-h-[100px] sm:text-xs"
           >
             <img
               src={brand.logo_url}
