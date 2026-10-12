@@ -1,3 +1,4 @@
+import { businessPostalAddress } from "@/lib/business-address";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -26,8 +27,8 @@ export const metadata: Metadata = {
     "instant quote",
     "doorstep pickup",
     "laptop buyback",
-    "hbr layout",
-    "nagawara",
+    "lr bande",
+    "rt nagar",
   ],
   authors: [{ name: "Hulumart" }],
   openGraph: {
@@ -83,14 +84,7 @@ export default function RootLayout({
               logo: "https://www.hulumart.com/assets/hulumart-logo.png",
               description: "Sell used laptops and desktops with Hulumart in Bangalore",
               telephone: "+919886579923",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "HBR Layout, Nagawara Main Road",
-                addressLocality: "Bangalore",
-                addressRegion: "Karnataka",
-                postalCode: "560045",
-                addressCountry: "IN",
-              },
+              address: businessPostalAddress,
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+919886579923",
@@ -113,19 +107,7 @@ export default function RootLayout({
               image: "https://www.hulumart.com/assets/hulumart-logo.png",
               telephone: "+919886579923",
               priceRange: "₹₹",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "HBR Layout, Nagawara Main Road",
-                addressLocality: "Bangalore",
-                addressRegion: "Karnataka",
-                postalCode: "560045",
-                addressCountry: "IN",
-              },
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: "13.0358",
-                longitude: "77.6431",
-              },
+              address: businessPostalAddress,
               url: "https://www.hulumart.com",
               email: "hulumart.com@gmail.com",
               openingHoursSpecification: [

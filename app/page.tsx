@@ -1,3 +1,4 @@
+import { businessPostalAddress } from "@/lib/business-address";
 import type { Metadata } from "next";
 import { HomeClient } from "./home-client";
 
@@ -81,19 +82,7 @@ export default function HomePage() {
             url: "https://www.hulumart.com",
             telephone: "+919886579923",
             priceRange: "₹₹",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "HBR Layout, Nagawara Main Road",
-              addressLocality: "Bengaluru",
-              addressRegion: "Karnataka",
-              postalCode: "560045",
-              addressCountry: "IN",
-            },
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: "12.9716",
-              longitude: "77.5946",
-            },
+            address: businessPostalAddress,
             areaServed: { "@type": "City", name: "Bengaluru" },
             aggregateRating: {
               "@type": "AggregateRating",

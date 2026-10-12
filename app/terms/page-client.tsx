@@ -1,5 +1,7 @@
 "use client";
 
+import { businessAddress } from "@/lib/business-address";
+
 
 import Link from "next/link";
 import Header from "@/components/Header";
@@ -141,7 +143,7 @@ export const PageClient = () => {
                 </p>
                 <p className="mt-2">
                   <strong>Email:</strong> hulumart.com@gmail.com<br />
-                  <strong>Address:</strong> HBR Layout, Nagawara Main Road, Bangalore – 560045
+                  <strong>Address:</strong> {businessAddress.full}
                 </p>
               </section>
 

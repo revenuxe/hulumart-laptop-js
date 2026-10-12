@@ -1,5 +1,7 @@
 "use client";
 
+import { businessAddress } from "@/lib/business-address";
+
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -72,8 +74,7 @@ export const PageClient = () => {
                         <div>
                           <h3 className="font-semibold mb-1">Address</h3>
                           <p className="text-muted-foreground">
-                            HBR Layout, Nagawara Main Road<br />
-                            Bangalore – 560045, Karnataka, India
+                            {businessAddress.full}
                           </p>
                         </div>
                       </div>
@@ -120,14 +121,14 @@ export const PageClient = () => {
                   {/* Map */}
                   <div className="rounded-lg overflow-hidden border">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.6234567890123!2d77.64!3d13.036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAyJzA5LjYiTiA3N8KwMzgnMzUuMiJF!5e0!3m2!1sen!2sin!4v1234567890"
+                      src={`https://www.google.com/maps?q=${encodeURIComponent(businessAddress.full)}&output=embed`}
                       width="100%"
                       height="300"
                       style={{ border: 0 }}
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Hulumart Location - HBR Layout, Bangalore"
+                      title="Hulumart Location - LR Bande, RT Nagar, Bengaluru"
                     ></iframe>
                   </div>
                 </div>
