@@ -124,23 +124,22 @@ export const PageClient = () => {
             </div>
           </section>
 
-          {/* Built by Revenuxe */}
+          {/* Venture affiliation */}
           <section className="py-12 md:py-16">
             <div className="container">
               <div className="text-center">
                 <Card className="border-primary/10 bg-card/30 backdrop-blur-sm inline-block">
-                  <CardContent className="px-8 py-5 flex items-center gap-3">
-                    <p className="text-sm text-muted-foreground">
-                      Platform designed & developed by{" "}
+                  <CardContent className="px-6 py-6 sm:px-8">
+                    <h2 className="text-lg font-semibold sm:text-xl">A venture of Revenuxe</h2>
+                    <p className="mt-2 text-sm text-muted-foreground">Hulumart is a Revenuxe venture.</p>
                       <a
-                        href="https://revenuxe.com"
+                        href="https://www.revenuxe.com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-semibold text-primary hover:underline"
+                        className="mt-3 inline-flex text-sm font-semibold text-primary underline-offset-4 hover:underline"
                       >
-                        Revenuxe.com
+                        www.revenuxe.com
                       </a>
-                    </p>
                   </CardContent>
                 </Card>
               </div>
