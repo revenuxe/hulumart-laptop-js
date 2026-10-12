@@ -16,19 +16,22 @@ const catalogSnapshot = unstable_cache(async () => {
     client.from('categories').select('id,slug').abortSignal(signal),
     client.from('brands').select('id,name,slug,logo_url,category_id').order('name').abortSignal(signal),
     client.from('series').select('id,name,slug,image_url,brand_id').order('name').abortSignal(signal),
-    (async () => {
-      const rows: CatalogEntry[] = [];
-      for (let offset = 0; ; offset += 1000) {
-        const result = await client.from('models').select('id,name,slug,thumbnail_url,series_id').eq('active', true).order('id').range(offset, offset + 999).abortSignal(signal);
-        if (result.error) throw new Error('The device catalog is temporarily unavailable.');
-        rows.push(...result.data);
-        if (result.data.length < 1000) return { data: rows, error: null };
-      }
-    })(),
   ]);
   if (requests.some(result => result.error)) throw new Error('The device catalog is temporarily unavailable.');
-  return { categories: requests[0].data!, brands: requests[1].data!, series: requests[2].data!, models: requests[3].data! };
-}, ['public-device-catalog-v1'], { revalidate: 60 });
+  return { categories: requests[0].data!, brands: requests[1].data!, series: requests[2].data! };
+}, ['public-device-catalog-families-v2'], { revalidate: 60 });
+
+const seriesModels = unstable_cache(async (seriesId: string): Promise<CatalogEntry[]> => {
+  const client = createServerSupabaseClient();
+  const signal = AbortSignal.timeout(10000);
+  const rows: CatalogEntry[] = [];
+  for (let offset = 0; ; offset += 1000) {
+    const result = await client.from('models').select('id,name,slug,thumbnail_url,series_id').eq('series_id', seriesId).eq('active', true).order('id').range(offset, offset + 999).abortSignal(signal);
+    if (result.error) throw new Error('The device catalog is temporarily unavailable.');
+    rows.push(...result.data);
+    if (result.data.length < 1000) return rows;
+  }
+}, ['public-device-series-models-v2'], { revalidate: 60 });
 
 export const resolveCatalogPage = cache(async (routeKey: string): Promise<CatalogPageData> => {
   const route = routeKey ? routeKey.split('/') : [];
@@ -44,7 +47,7 @@ export const resolveCatalogPage = cache(async (routeKey: string): Promise<Catalo
   const series = brand ? catalog.series.filter(item => item.brand_id === brand.id && item.slug) : [];
   const selectedSeries = route[2] ? series.find(item => item.slug === route[2]) ?? null : null;
   if (route[2] && !selectedSeries) notFound();
-  const models = selectedSeries ? catalog.models.filter(item => item.series_id === selectedSeries.id && item.slug).sort((a,b) => a.name.localeCompare(b.name)) : [];
+  const models = selectedSeries ? (await seriesModels(selectedSeries.id)).filter(item => item.slug).sort((a,b) => a.name.localeCompare(b.name)) : [];
   const model = route[3] ? models.find(item => item.slug === route[3]) ?? null : null;
   if (route[3] && !model) notFound();
   return { routeKey, brands, series, models, brand, selectedSeries, model };

@@ -203,6 +203,8 @@ export const SellClient = ({ initialData }: { initialData: CatalogPageData }) =>
 
   const catalogCards = (items: CatalogItem[], choose: (item: CatalogItem) => void, imageField: "logo_url" | "image_url" | "thumbnail_url", isLoading: boolean) => {
     const isBrand = imageField === "logo_url";
+    const itemHref = (item: CatalogItem) => isBrand ? `/sell/${categorySlug}/${item.slug}` : imageField === "image_url" ? `/sell/${categorySlug}/${brandSlug}/${item.slug}` : `/sell/${categorySlug}/${brandSlug}/${seriesSlug}/${item.slug}`;
+    const fallbackImage = categorySlug === "desktop" ? "/assets/sell-desktop-cutout.webp" : "/assets/sell-laptop-cutout.webp";
     const filtered = items.filter((item) => item.name.toLowerCase().includes(search.toLowerCase()));
     return (
       <div className={isBrand ? "grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6" : "grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4"}>
@@ -213,22 +215,26 @@ export const SellClient = ({ initialData }: { initialData: CatalogPageData }) =>
         ) : filtered.map((item) => (
           <Link
             key={item.id}
-            href={imageField === "logo_url" ? "/sell/" + categorySlug + "/" + item.slug : imageField === "image_url" ? "/sell/" + categorySlug + "/" + brandSlug + "/" + item.slug : "/sell/" + categorySlug + "/" + brandSlug + "/" + seriesSlug + "/" + item.slug}
+            href={itemHref(item)}
             onClick={(event) => { if (event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) { event.preventDefault(); choose(item); } }}
-            prefetch={false}
+            prefetch={imageField !== "thumbnail_url"}
+            onPointerEnter={() => router.prefetch(itemHref(item))}
+            onFocus={() => router.prefetch(itemHref(item))}
+            onTouchStart={() => router.prefetch(itemHref(item))}
             className={isBrand
               ? "flex h-[200px] cursor-pointer flex-col items-center justify-center rounded-xl border border-slate-200 bg-white px-4 py-6 shadow-[0_3px_12px_rgba(15,23,42,0.13)] transition hover:-translate-y-0.5 hover:border-primary hover:shadow-lg"
-              : "flex min-h-[124px] cursor-pointer flex-col justify-center p-3 transition hover:border-primary hover:shadow-md"
+              : "group flex min-h-[190px] flex-col overflow-hidden rounded-2xl border border-primary/15 bg-card p-3 shadow-sm transition-colors hover:border-primary/40 hover:bg-primary/[0.03] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary sm:min-h-[220px] sm:p-4"
             }
           >
-            {item[imageField] && (
-              <div className={isBrand ? "mb-5 flex h-[72px] w-full items-center justify-center" : "mb-2 flex h-14 items-center justify-center"}>
-                <img src={isBrand ? resolveBrandLogo(item[imageField]!) : item[imageField] || undefined} alt={`${item.name} logo`} className={isBrand ? "max-h-[62px] max-w-[130px] object-contain" : "max-h-full max-w-[82%] object-contain"} />
+            {(item[imageField] || !isBrand) && (
+              <div className={isBrand ? "mb-5 flex h-[72px] w-full items-center justify-center" : "mb-3 flex h-24 items-center justify-center rounded-xl bg-primary/[0.04] p-2 sm:h-28"}>
+                <img src={isBrand ? resolveBrandLogo(item[imageField]!) : item[imageField] || fallbackImage} alt={isBrand ? `${item.name} logo` : item[imageField] ? item.name : `${categorySlug} illustration`} loading="lazy" onError={(event) => { if (!isBrand && event.currentTarget.getAttribute('src') !== fallbackImage) event.currentTarget.src = fallbackImage; }} className={isBrand ? "max-h-[62px] max-w-[130px] object-contain" : "h-full w-full object-contain"} />
               </div>
             )}
-            <p className={isBrand ? "w-full truncate text-center text-[15px] font-medium text-black" : "truncate text-center text-sm font-semibold leading-tight sm:text-base"} title={item.name}>
+            <p className={isBrand ? "w-full truncate text-center text-[15px] font-medium text-black" : "break-words text-center text-sm font-semibold leading-5 sm:text-base sm:leading-6"} title={item.name}>
               {item.name}
             </p>
+            {!isBrand && <span className="mt-auto pt-3 text-center text-[11px] font-medium text-primary">{imageField === "image_url" ? "View models →" : "Select device →"}</span>}
           </Link>
         ))}
       </div>
@@ -266,23 +272,18 @@ export const SellClient = ({ initialData }: { initialData: CatalogPageData }) =>
           {step === "method" && brands.length > 0 && <nav aria-label="Browse device brands" className="mt-8 rounded-2xl border bg-card p-5"><h2 className="text-lg font-semibold">Browse {categorySlug} brands</h2><div className="mt-4 flex flex-wrap gap-3">{brands.map(brand => <Link key={brand.id} href={`/sell/${categorySlug}/${brand.slug}`} className="rounded-xl border px-4 py-2 text-sm text-primary hover:bg-primary/5">{brand.name}</Link>)}</div></nav>}
           {step === "brand" && (
             <section>
-              <h2 className="mb-5 text-xl font-bold">Choose brand</h2>
               {catalogCards(brands, pickBrand, "logo_url", loadingBrands)}
             </section>
           )}
 
           {step === "series" && (
             <section>
-              <h2 className="mb-4 text-xl font-bold">
-                Choose {brandObj?.name || brandSlug} series
-              </h2>
               {catalogCards(series, pickSeries, "image_url", loadingSeries)}
             </section>
           )}
 
           {step === "model" && (
             <section>
-              <h2 className="mb-4 text-xl font-bold">Choose model</h2>
               <div className="relative mb-5">
                 <Search className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
                 <Input className="pl-9" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search model" />
