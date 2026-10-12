@@ -94,8 +94,8 @@ UPDATE public.brands SET logo_url = 'https://upload.wikimedia.org/wikipedia/comm
 UPDATE public.brands SET logo_url = 'https://upload.wikimedia.org/wikipedia/commons/b/b8/Lenovo_logo_2015.svg' WHERE lower(name) = 'lenovo';
 UPDATE public.brands SET logo_url = 'https://upload.wikimedia.org/wikipedia/commons/2/2e/ASUS_Logo.svg' WHERE lower(name) = 'asus';
 UPDATE public.brands SET logo_url = 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Acer_Logo.svg' WHERE lower(name) = 'acer';
-UPDATE public.brands SET logo_url = 'https://upload.wikimedia.org/wikipedia/commons/3/3a/MSI_logo.svg' WHERE lower(name) = 'msi';
-UPDATE public.brands SET logo_url = 'https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg' WHERE lower(name) = 'samsung';
+UPDATE public.brands SET logo_url = 'https://www.hulumart.com/assets/brands/msi.svg' WHERE lower(name) = 'msi';
+UPDATE public.brands SET logo_url = 'https://www.hulumart.com/assets/brands/samsung.svg' WHERE lower(name) = 'samsung';
 UPDATE public.brands SET logo_url = 'https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg' WHERE lower(name) = 'microsoft';
 UPDATE public.brands SET logo_url = 'https://upload.wikimedia.org/wikipedia/commons/b/bf/LG_logo_%282015%29.svg' WHERE lower(name) = 'lg';
 

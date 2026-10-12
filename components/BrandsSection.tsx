@@ -6,6 +6,7 @@ import { supabase } from '@/lib/supabase/client';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
+import { resolveBrandLogo } from '@/lib/brand-logos';
 
 interface Brand {
   id: string;
@@ -22,8 +23,8 @@ const DEFAULT_BRANDS: Brand[] = [
   { id: 'lenovo', name: 'Lenovo', logo_url: 'https://upload.wikimedia.org/wikipedia/commons/b/b8/Lenovo_logo_2015.svg', category_id: null, slug: 'lenovo' },
   { id: 'asus', name: 'Asus', logo_url: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/ASUS_Logo.svg', category_id: null, slug: 'asus' },
   { id: 'acer', name: 'Acer', logo_url: 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Acer_Logo.svg', category_id: null, slug: 'acer' },
-  { id: 'msi', name: 'MSI', logo_url: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/MSI_logo.svg', category_id: null, slug: 'msi' },
-  { id: 'samsung', name: 'Samsung', logo_url: 'https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg', category_id: null, slug: 'samsung' },
+  { id: 'msi', name: 'MSI', logo_url: '/assets/brands/msi.svg', category_id: null, slug: 'msi' },
+  { id: 'samsung', name: 'Samsung', logo_url: '/assets/brands/samsung.svg', category_id: null, slug: 'samsung' },
   { id: 'microsoft', name: 'Microsoft', logo_url: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg', category_id: null, slug: 'microsoft' },
 ];
 
@@ -80,8 +81,8 @@ export function BrandsSection() {
                 {brand.logo_url ? (
                   <div className="aspect-square flex items-center justify-center overflow-hidden rounded-lg bg-background p-2 sm:p-4">
                     <img 
-                      src={brand.logo_url.startsWith('http') 
-                        ? brand.logo_url 
+                      src={resolveBrandLogo(brand.logo_url).startsWith('/') || resolveBrandLogo(brand.logo_url).startsWith('http')
+                        ? resolveBrandLogo(brand.logo_url)
                         : supabase.storage.from('brand-logos').getPublicUrl(brand.logo_url).data.publicUrl
                       }
                       alt={brand.name}

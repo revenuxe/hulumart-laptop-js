@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { catalogMetadataName } from "@/lib/catalog-metadata";
+import { resolveCatalogPage } from "@/lib/catalog-server";
 import { SellClient } from "./sell-client";
 
 interface Props {
@@ -8,16 +8,21 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const urlSegments = params?.params || [];
+  const resolved = await resolveCatalogPage(urlSegments.join("/"));
+  if (urlSegments.length === 0) {
+    const title = "Sell Your Device: Choose Laptop or Desktop | Hulumart";
+    const description = "Choose a laptop or desktop to start your Hulumart selling request. Select your device and share its details to discuss assessment and pickup in Bangalore.";
+    const url = "https://www.hulumart.com/sell";
+    return { title: { absolute: title }, description, alternates: { canonical: url }, openGraph: { title, description, url, type: "website", siteName: "Hulumart" }, twitter: { card: "summary", title, description } };
+  }
   const category = urlSegments[0] || "laptop";
   const brandSlug = urlSegments[1];
   const seriesSlug = urlSegments[2];
   const modelSlug = urlSegments[3];
 
-  const [brandLabel, seriesLabel, modelLabel] = await Promise.all([
-    brandSlug ? catalogMetadataName("brands", brandSlug).catch(() => null) : null,
-    seriesSlug ? catalogMetadataName("series", seriesSlug).catch(() => null) : null,
-    modelSlug ? catalogMetadataName("models", modelSlug).catch(() => null) : null,
-  ]);
+  const brandLabel = resolved.brand?.name;
+  const seriesLabel = resolved.selectedSeries?.name;
+  const modelLabel = resolved.model?.name;
 
   const categoryName = category === "desktop" ? "Desktop" : "Laptop";
   let title = `Sell Used ${categoryName} Online | Instant Quote & Cash Payment - Hulumart`;
@@ -49,7 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title,
+    title: { absolute: title },
     description,
     keywords: [
       `sell ${categoryName.toLowerCase()}`,
@@ -60,6 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       "sell old electronics",
     ],
     alternates: { canonical: canonicalUrl },
+    ...(modelSlug ? { robots: { index: false, follow: true, googleBot: { index: false, follow: true } } } : {}),
     openGraph: {
       title,
       description,
@@ -76,6 +82,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function SellPage() {
-  return <SellClient />;
+export default async function SellPage({ params }: Props) {
+  const initialData = await resolveCatalogPage((params.params || []).join("/"));
+  return <SellClient initialData={initialData} />;
 }

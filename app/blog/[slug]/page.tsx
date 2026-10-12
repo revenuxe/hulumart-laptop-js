@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = post.meta_description || post.excerpt;
   const url = `https://www.hulumart.com/blog/${post.slug}`;
   return {
-    title, description, keywords: post.keywords || [], alternates: { canonical: url },
+    title: { absolute: title }, description, keywords: post.keywords || [], alternates: { canonical: url },
     openGraph: { type: 'article', title, description, url, publishedTime: post.created_at || undefined, modifiedTime: post.updated_at || undefined, images: post.featured_image ? [{ url: post.featured_image }] : [] },
     twitter: { card: post.featured_image ? 'summary_large_image' : 'summary', title, description },
   };

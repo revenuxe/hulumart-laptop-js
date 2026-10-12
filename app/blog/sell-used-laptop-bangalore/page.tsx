@@ -6,7 +6,7 @@ import { BlogPostClient } from '../[slug]/blog-post-client';
 
 const post = getEditorialPost('sell-used-laptop-bangalore')!;
 export const metadata: Metadata = {
-  title: post.meta_title, description: post.meta_description, keywords: post.keywords || [],
+  title: { absolute: post.meta_title }, description: post.meta_description, keywords: post.keywords || [],
   alternates: { canonical: 'https://www.hulumart.com/blog/sell-used-laptop-bangalore' },
   openGraph: { type: 'article', title: post.title, description: post.excerpt, url: 'https://www.hulumart.com/blog/sell-used-laptop-bangalore', publishedTime: post.created_at || undefined, modifiedTime: post.updated_at || undefined },
 };

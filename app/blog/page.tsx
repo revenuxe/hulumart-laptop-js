@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 export const metadata: Metadata = {
-  title: "Hulumart Blog - Laptop Buying Guides, Selling Tips & Tech Insights",
+  title: { absolute: "Laptop Selling & Buying Guides | Hulumart Journal" },
   description:
     "Practical laptop selling guides, refurbished buying checklists, and upgrade comparisons. Get clear answers and plan your next step with Hulumart.",
   keywords: ["laptop blog", "refurbished laptop guide", "selling laptop tips", "tech insights", "laptop comparisons"],

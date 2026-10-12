@@ -5,6 +5,10 @@ import { useParams, useRouter } from "next/navigation";
 import { Laptop, Monitor, Search } from "lucide-react";
 import LoadingIndicator from "@/components/LoadingIndicator";
 import { cachedCatalog } from "@/lib/catalog-cache";
+import { resolveBrandLogo } from "@/lib/brand-logos";
+import Link from "next/link";
+import type { CatalogPageData, CatalogEntry } from "@/lib/catalog-server";
+import SellingGuideLinks from "@/components/SellingGuideLinks";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SimpleForm from "@/components/SimpleForm";
@@ -16,7 +20,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { Input } from "@/components/ui/input";
 
 type Category = "laptop" | "desktop";
-type CatalogItem = { id: string; name: string; slug: string; logo_url?: string; image_url?: string; thumbnail_url?: string };
+type CatalogItem = CatalogEntry;
 
 // Deterministic step derived from URL segments — the ONLY source of truth for navigation
 type Step = "category" | "method" | "brand" | "series" | "model" | "booking";
@@ -29,7 +33,7 @@ function deriveStep(route: string[], catalog: boolean): Step {
   return "booking";
 }
 
-export const SellClient = () => {
+export const SellClient = ({ initialData }: { initialData: CatalogPageData }) => {
   const params = useParams() as { params?: string[] };
   const route = useMemo(() => Array.isArray(params.params) ? params.params : [], [params.params]);
   const router = useRouter();
@@ -41,14 +45,14 @@ export const SellClient = () => {
   const [search, setSearch] = useState("");
 
   // Data arrays — fetched based on URL slugs
-  const [brands, setBrands] = useState<CatalogItem[]>([]);
-  const [series, setSeries] = useState<CatalogItem[]>([]);
-  const [models, setModels] = useState<CatalogItem[]>([]);
+  const [brands, setBrands] = useState<CatalogItem[]>(initialData.brands);
+  const [series, setSeries] = useState<CatalogItem[]>(initialData.series);
+  const [models, setModels] = useState<CatalogItem[]>(initialData.models);
 
   // Resolved objects — looked up from the fetched arrays
-  const [brandObj, setBrandObj] = useState<CatalogItem | null>(null);
-  const [seriesObj, setSeriesObj] = useState<CatalogItem | null>(null);
-  const [modelObj, setModelObj] = useState<CatalogItem | null>(null);
+  const [brandObj, setBrandObj] = useState<CatalogItem | null>(initialData.brand);
+  const [seriesObj, setSeriesObj] = useState<CatalogItem | null>(initialData.selectedSeries);
+  const [modelObj, setModelObj] = useState<CatalogItem | null>(initialData.model);
 
   // Loading states — per data fetch
   const [loadingBrands, setLoadingBrands] = useState(false);
@@ -81,13 +85,20 @@ export const SellClient = () => {
   const [catalogError, setCatalogError] = useState<string | null>(null);
   const [retryCount, setRetryCount] = useState(0);
   const routeKey = route.join("/");
-  const [resolvedRoute, setResolvedRoute] = useState<string | null>(null);
+  const [resolvedRoute, setResolvedRoute] = useState<string | null>(initialData.routeKey);
   const awaitingRoute = Boolean(stepOverride) || (Boolean(categorySlug) && resolvedRoute !== routeKey);
-  const [loadingCatalog, setLoadingCatalog] = useState(Boolean(categorySlug));
+  const [loadingCatalog, setLoadingCatalog] = useState(false);
 
   // Resolve the complete URL in one request sequence. Never leave a failed
   // lookup indistinguishable from a request that is still running.
   useEffect(() => {
+    if (initialData.routeKey === routeKey && retryCount === 0) {
+      setBrands(initialData.brands); setSeries(initialData.series); setModels(initialData.models);
+      setBrandObj(initialData.brand); setSeriesObj(initialData.selectedSeries); setModelObj(initialData.model);
+      setResolvedRoute(routeKey); setCatalogError(null); setLoadingCatalog(false);
+      setLoadingBrands(false); setLoadingSeries(false); setLoadingModels(false);
+      return;
+    }
     const controller = new AbortController();
     let cancelled = false;
     const timeout = window.setTimeout(() => {
@@ -150,7 +161,7 @@ export const SellClient = () => {
     }
     void loadCatalog();
     return () => { cancelled = true; window.clearTimeout(timeout); controller.abort(); };
-  }, [categorySlug, brandSlug, seriesSlug, modelSlug, retryCount, routeKey]);
+  }, [categorySlug, brandSlug, seriesSlug, modelSlug, retryCount, routeKey, initialData]);
 
   // ── Navigation handlers ──
   // Set stepOverride FIRST so the UI updates instantly, then push to router.
@@ -200,9 +211,11 @@ export const SellClient = () => {
             {items.length === 0 ? "No options available." : "No results found."}
           </div>
         ) : filtered.map((item) => (
-          <Card
+          <Link
             key={item.id}
-            onClick={() => choose(item)}
+            href={imageField === "logo_url" ? "/sell/" + categorySlug + "/" + item.slug : imageField === "image_url" ? "/sell/" + categorySlug + "/" + brandSlug + "/" + item.slug : "/sell/" + categorySlug + "/" + brandSlug + "/" + seriesSlug + "/" + item.slug}
+            onClick={(event) => { if (event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) { event.preventDefault(); choose(item); } }}
+            prefetch={false}
             className={isBrand
               ? "flex h-[200px] cursor-pointer flex-col items-center justify-center rounded-xl border border-slate-200 bg-white px-4 py-6 shadow-[0_3px_12px_rgba(15,23,42,0.13)] transition hover:-translate-y-0.5 hover:border-primary hover:shadow-lg"
               : "flex min-h-[124px] cursor-pointer flex-col justify-center p-3 transition hover:border-primary hover:shadow-md"
@@ -210,13 +223,13 @@ export const SellClient = () => {
           >
             {item[imageField] && (
               <div className={isBrand ? "mb-5 flex h-[72px] w-full items-center justify-center" : "mb-2 flex h-14 items-center justify-center"}>
-                <img src={item[imageField]} alt={`${item.name} logo`} className={isBrand ? "max-h-[62px] max-w-[130px] object-contain" : "max-h-full max-w-[82%] object-contain"} />
+                <img src={isBrand ? resolveBrandLogo(item[imageField]!) : item[imageField] || undefined} alt={`${item.name} logo`} className={isBrand ? "max-h-[62px] max-w-[130px] object-contain" : "max-h-full max-w-[82%] object-contain"} />
               </div>
             )}
             <p className={isBrand ? "w-full truncate text-center text-[15px] font-medium text-black" : "truncate text-center text-sm font-semibold leading-tight sm:text-base"} title={item.name}>
               {item.name}
             </p>
-          </Card>
+          </Link>
         ))}
       </div>
     );
@@ -229,7 +242,7 @@ export const SellClient = () => {
       <main className="flex-1 bg-muted/20 py-10">
         <div className="container max-w-7xl px-4">
           <div className="mb-8 text-center">
-            <h1 className="text-3xl font-bold">Sell your device</h1>
+            <h1 className="text-3xl font-bold">{step === "series" ? `Choose your ${brandObj?.name || "laptop"} series` : step === "model" ? `Choose your ${seriesObj?.name || "device"} model` : step === "brand" ? `Choose your ${categorySlug || "device"} brand` : "Sell your device"}</h1>
             <p className="mt-2 text-muted-foreground">Quick, simple and convenient.</p>
           </div>
 
@@ -250,6 +263,7 @@ export const SellClient = () => {
             <SellMethodSelector category={categorySlug} onEvaluate={onEvaluate} onForm={onForm} />
           )}
 
+          {step === "method" && brands.length > 0 && <nav aria-label="Browse device brands" className="mt-8 rounded-2xl border bg-card p-5"><h2 className="text-lg font-semibold">Browse {categorySlug} brands</h2><div className="mt-4 flex flex-wrap gap-3">{brands.map(brand => <Link key={brand.id} href={`/sell/${categorySlug}/${brand.slug}`} className="rounded-xl border px-4 py-2 text-sm text-primary hover:bg-primary/5">{brand.name}</Link>)}</div></nav>}
           {step === "brand" && (
             <section>
               <h2 className="mb-5 text-xl font-bold">Choose brand</h2>
@@ -278,7 +292,7 @@ export const SellClient = () => {
           )}
 
           {!catalogError && !loadingCatalog && !awaitingRoute && step === "booking" && modelObj && brandObj && categorySlug && (
-            <ModelBookingCard key={modelObj.id} category={categorySlug} brand={brandObj.name} model={modelObj.name} modelId={modelObj.id} modelImage={modelObj.image_url || modelObj.thumbnail_url} />
+            <ModelBookingCard key={modelObj.id} category={categorySlug} brand={brandObj.name} model={modelObj.name} modelId={modelObj.id} modelImage={modelObj.image_url || modelObj.thumbnail_url || undefined} />
           )}
           {/* If booking step but objects not yet resolved from URL, show spinner */}
           {!catalogError && step === "booking" && (loadingCatalog || awaitingRoute) && (
@@ -298,6 +312,7 @@ export const SellClient = () => {
           </Dialog>
         </div>
       </main>
+      <SellingGuideLinks />
       <Footer />
     </div>
   );

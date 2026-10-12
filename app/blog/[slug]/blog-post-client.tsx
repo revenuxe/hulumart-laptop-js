@@ -9,8 +9,12 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { articleSections, BlogPost, BlogSummary, formatBlogDate, readingMinutes } from '@/lib/blog';
 import { BlogCTA } from '@/components/blog/BlogCTA';
+import { BlogServiceLinks } from "@/components/blog/BlogServiceLinks";
+import { BlogCover } from '@/components/blog/BlogCover';
+import { blogStory } from '@/lib/blog-stories';
 
 export function BlogPostClient({ post, relatedPosts = [] }: { post: BlogPost; relatedPosts?: BlogSummary[] }) {
+  const story = blogStory(post.slug);
   const articleRef = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(0);
   const [activeSection, setActiveSection] = useState('');
@@ -27,7 +31,6 @@ export function BlogPostClient({ post, relatedPosts = [] }: { post: BlogPost; re
     if (!blocks.length || (!fenced && /^##\s/.test(line))) blocks.push(line);
     else blocks[blocks.length - 1] += `\n${line}`;
   }
-  const ctaIndex = sections.length >= 4 ? Math.ceil(blocks.length / 2) : -1;
 
   useEffect(() => {
     let frame = 0;
@@ -65,13 +68,14 @@ export function BlogPostClient({ post, relatedPosts = [] }: { post: BlogPost; re
     <main className="flex-1">
       <section className="border-b bg-gradient-to-br from-primary/5 via-background to-secondary/10"><div className="container py-8 md:py-14">
         <nav aria-label="Breadcrumb" className="mb-8 flex flex-wrap items-center gap-2 text-sm text-muted-foreground"><Link href="/blog" className="inline-flex items-center gap-2 hover:text-primary"><ArrowLeft className="h-4 w-4" />All guides</Link><span aria-hidden="true">/</span><span>{post.category}</span></nav>
-        <div className="max-w-4xl"><span className="mb-4 inline-block rounded-full border border-primary/15 bg-background px-3 py-1 text-xs font-bold uppercase tracking-wider text-primary">{post.category}</span><h1 className="text-3xl font-bold leading-[1.15] tracking-tight sm:text-4xl lg:text-5xl">{post.title}</h1><p className="mt-6 max-w-3xl text-lg leading-relaxed text-muted-foreground">{post.excerpt}</p>
+        <div className="grid items-center gap-7 lg:grid-cols-[1.3fr_0.7fr]"><div className="min-w-0"><h1 className="text-[30px] font-bold leading-[1.16] tracking-tight sm:text-4xl lg:text-[44px]">{post.title}</h1><p className="mt-5 max-w-3xl text-sm leading-7 sm:text-base text-muted-foreground">{post.excerpt}</p>
           <div className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-muted-foreground"><span className="inline-flex items-center gap-2"><User className="h-4 w-4" />{post.author || 'Hulumart Editorial Team'}</span><span className="inline-flex items-center gap-2"><Clock className="h-4 w-4" />{readingMinutes(post.content)} min read</span>{date && <time dateTime={post.updated_at || post.created_at || undefined}>Updated {date}</time>}<button onClick={copyLink} className="inline-flex items-center gap-2 rounded-lg px-2 py-1 font-medium text-primary hover:bg-primary/5">{copyStatus === 'copied' ? <Check className="h-4 w-4" /> : <Link2 className="h-4 w-4" />}{copyStatus === 'copied' ? 'Link copied' : 'Copy link'}</button><span role="status" className="sr-only">{copyStatus === 'copied' ? 'Article link copied' : copyStatus === 'failed' ? 'Unable to copy. Copy the address from your browser.' : ''}</span></div>
-        </div>
+          {sections[0] && <a href={`#${sections[0].id}`} className="mt-6 inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary/90">Start reading<ArrowRight aria-hidden="true" className="h-4 w-4" /></a>}
+        </div><div className="overflow-hidden rounded-3xl border shadow-sm"><BlogCover category={post.category} image={post.featured_image} large /></div></div>
       </div></section>
       <div className="container grid gap-10 py-10 lg:grid-cols-[minmax(0,1fr)_290px] lg:gap-16 lg:py-14">
         <div className="min-w-0">
-          {post.featured_image && <img src={post.featured_image} alt={post.title} className="mb-8 max-h-[480px] w-full rounded-2xl object-cover" />}
+          {story && <section className="mb-8 rounded-3xl border bg-card p-5 sm:p-7" aria-labelledby="story-opening"><h2 id="story-opening" className="text-xl font-bold tracking-tight sm:text-2xl">{story.heading}</h2><p className="mt-4 text-sm leading-7 text-muted-foreground sm:text-base sm:leading-8">{story.opening}</p><h3 className="mt-6 text-sm font-semibold">What you’ll take away</h3><ul className="mt-3 space-y-3">{story.takeaways.map(takeaway => <li key={takeaway} className="flex gap-3 text-sm leading-6 text-muted-foreground"><Check aria-hidden="true" className="mt-1 h-4 w-4 shrink-0 text-secondary" />{takeaway}</li>)}</ul></section>}
           {!!sections.length && <details className="mb-8 rounded-xl border bg-muted/30 p-4 lg:hidden"><summary className="cursor-pointer text-sm font-semibold"><List className="mr-2 inline h-4 w-4" />In this guide · {sections.length} sections</summary><nav aria-label="Article contents" className="mt-4">{contentsLinks}</nav></details>}
           <article aria-label={post.title} ref={articleRef} className="blog-article max-w-[760px]">
             {blocks.map((block, index) => {
@@ -84,17 +88,17 @@ export function BlogPostClient({ post, relatedPosts = [] }: { post: BlogPost; re
                 img: ({ src, alt }) => <img src={src} alt={alt || ''} loading="lazy" className="my-8 h-auto max-w-full rounded-xl" />,
                 table: ({ children }) => <div className="overflow-x-auto"><table>{children}</table></div>,
               }}>{block}</ReactMarkdown></div>
-              {index === ctaIndex && <div className="not-prose my-10"><BlogCTA buying={buying} /></div>}
             </div>; })}
           </article>
-          <div className="mt-10"><BlogCTA buying={buying} /></div>
-          <div className="mt-8 flex flex-wrap items-center justify-between gap-4 border-t pt-6 text-sm"><Link href="/blog" className="inline-flex items-center gap-2 font-medium text-primary hover:underline"><ArrowLeft className="h-4 w-4" />Explore all guides</Link><a href="#" className="text-muted-foreground hover:text-primary">Back to top ↑</a></div>
+          <BlogServiceLinks slug={post.slug} />
+          <div className="mt-10"><BlogCTA buying={buying} story={story} /></div>
+          <div className="mt-8 flex flex-wrap items-center justify-between gap-4 border-t pt-6 text-sm"><Link href="/blog" className="inline-flex items-center gap-2 font-medium text-primary hover:underline"><ArrowLeft className="h-4 w-4" />Explore all guides</Link><button type="button" onClick={() => window.scrollTo({ top: 0, behavior: "instant" })} className="text-muted-foreground hover:text-primary">Back to top ↑</button></div>
         </div>
         <aside className="hidden lg:block"><div className="sticky top-28 space-y-6">
           {!!sections.length && <nav aria-label="Article contents" className="rounded-2xl border p-4"><p className="mb-3 flex items-center gap-2 px-3 text-xs font-bold uppercase tracking-wider"><List className="h-4 w-4 text-primary" />In this guide</p><div className="max-h-[45vh] overflow-y-auto">{contentsLinks}</div></nav>}
-          <BlogCTA compact buying={buying} />
+          <BlogCTA compact buying={buying} story={story} />
         </div></aside>
       </div>
-      {!!relatedPosts.length && <section className="border-t bg-muted/25 py-12 md:py-16"><div className="container"><p className="mb-2 text-xs font-bold uppercase tracking-wider text-primary">Keep learning</p><h2 className="mb-7 text-3xl font-bold tracking-tight">A good next read</h2><div className="grid gap-5 md:grid-cols-3">{relatedPosts.map(related => <Link key={related.slug} href={`/blog/${related.slug}`} className="group flex flex-col rounded-2xl border bg-background p-6 transition-shadow hover:shadow-md"><span className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary">{related.category}</span><h3 className="text-xl font-bold leading-snug group-hover:text-primary">{related.title}</h3><p className="mb-5 mt-3 text-sm leading-relaxed text-muted-foreground">{related.excerpt}</p><span className="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-primary">Read the guide <ArrowRight className="h-4 w-4" /></span></Link>)}</div></div></section>}
+      {!!relatedPosts.length && <section className="border-t bg-muted/25 py-12 md:py-16"><div className="container"><h2 className="mb-7 text-3xl font-bold tracking-tight">Continue your next chapter</h2><div className="grid gap-5 md:grid-cols-3">{relatedPosts.map(related => <Link key={related.slug} href={`/blog/${related.slug}`} className="group flex flex-col rounded-2xl border bg-background p-6 transition-shadow hover:shadow-md"><span className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary">{related.category}</span><h3 className="text-xl font-bold leading-snug group-hover:text-primary">{related.title}</h3><p className="mb-5 mt-3 text-sm leading-relaxed text-muted-foreground">{related.excerpt}</p><span className="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-primary">Read the guide <ArrowRight className="h-4 w-4" /></span></Link>)}</div></div></section>}
     </main><Footer /></div>;
 }
