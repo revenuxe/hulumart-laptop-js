@@ -53,9 +53,9 @@ export default function SellingLanding({ data }: { data: SellingLandingData }) {
             <div>
               <div className="w-full max-w-2xl" style={{ containerType: "inline-size" }}><h1 className="font-bold leading-[1.16] tracking-tight" style={{ fontSize: `min(48px, calc(100cqw / ${headingWidth}))` }}><span className="block whitespace-nowrap">Sell your {headingName}</span><span className="mt-1 block whitespace-nowrap text-primary">in {city}.</span></h1></div>
               <p className="mt-5 max-w-xl text-sm leading-7 text-muted-foreground sm:text-base sm:leading-8">{data.intro}</p>
-              <div className="mt-6 flex flex-col gap-3 min-[400px]:flex-row sm:mt-8">
-                <Button asChild size="lg" className="h-12 rounded-xl px-5 font-semibold"><Link href={deviceHref}>Choose my device<ArrowRight aria-hidden="true" className="h-4 w-4" /></Link></Button>
-                <Button asChild size="lg" variant="outline" className="h-12 rounded-xl border-primary/15 bg-background/80 px-5"><a href={whatsappHref} target="_blank" rel="noopener noreferrer"><img src="/assets/whatsapp-mark.svg" width={20} height={20} alt="" aria-hidden="true" className="h-5 w-5 shrink-0" />Ask on WhatsApp</a></Button>
+              <div className="mt-6 grid w-full grid-cols-1 gap-3 min-[480px]:grid-cols-2 sm:mt-8 sm:flex sm:flex-wrap">
+                <Button asChild size="lg" className="h-12 min-w-0 rounded-xl px-3 text-sm font-semibold sm:px-5"><Link href={deviceHref}>Choose my device<ArrowRight aria-hidden="true" className="h-4 w-4 shrink-0" /></Link></Button>
+                <Button asChild size="lg" variant="outline" className="h-12 min-w-0 rounded-xl border-primary/15 bg-background/80 px-3 text-sm sm:px-5"><a href={whatsappHref} target="_blank" rel="noopener noreferrer"><img src="/assets/whatsapp-mark.svg" width={20} height={20} alt="" aria-hidden="true" className="h-5 w-5 shrink-0" />Ask on WhatsApp</a></Button>
               </div>
               <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-[11px] text-muted-foreground sm:text-xs"><span className="inline-flex items-center gap-1.5"><ClipboardCheck aria-hidden="true" className="h-3.5 w-3.5 text-primary" />Model-specific assessment</span><span className="inline-flex items-center gap-1.5"><MapPin aria-hidden="true" className="h-3.5 w-3.5 text-secondary" />Pickup by pincode</span></div>
             </div>
