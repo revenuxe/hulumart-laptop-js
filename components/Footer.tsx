@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Facebook, Linkedin, Instagram } from "lucide-react";
+import { serviceAreas } from "@/lib/service-areas";
 
 const Footer = () => {
   return (
@@ -27,7 +28,6 @@ const Footer = () => {
             <h3 className="mb-3 sm:mb-4 text-xs sm:text-sm font-semibold">Quick Links</h3>
             <ul className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
               <li><Link href="/sell" className="text-muted-foreground hover:text-foreground transition-colors">Sell Device</Link></li>
-              <li><Link href="/dashboard" className="text-muted-foreground hover:text-foreground transition-colors">My Dashboard</Link></li>
               <li><Link href="/terms" className="text-muted-foreground hover:text-foreground transition-colors">Terms</Link></li>
               <li><Link href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy</Link></li>
             </ul>
@@ -48,11 +48,8 @@ const Footer = () => {
           <div>
             <h3 className="mb-3 sm:mb-4 text-xs sm:text-sm font-semibold">Areas We Serve</h3>
             <ul className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
-              <li><span className="text-muted-foreground">Koramangala</span></li>
-              <li><span className="text-muted-foreground">Indiranagar</span></li>
-              <li><span className="text-muted-foreground">Whitefield</span></li>
-              <li><span className="text-muted-foreground">Electronic City</span></li>
-              <li><span className="text-muted-foreground">HSR Layout</span></li>
+              {serviceAreas.slice(0, 5).map(area => <li key={area.slug}><Link href={`/bangalore/areas/${area.slug}`} className="text-muted-foreground hover:text-foreground transition-colors">{area.name}</Link></li>)}
+              <li className="pt-1"><Link href="/bangalore/areas" className="font-medium text-primary hover:underline underline-offset-4">Browse all areas &rarr;</Link></li>
             </ul>
           </div>
 

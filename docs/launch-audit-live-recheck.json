@@ -1,0 +1,326 @@
+{
+  "checkedAt": "2026-10-12T07:44:21.543Z",
+  "robots": "User-Agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /dashboard/\nDisallow: /auth/\nDisallow: /track/\n\nUser-Agent: Googlebot\nAllow: /\n\nUser-Agent: Bingbot\nAllow: /\n\nSitemap: https://www.hulumart.com/sitemap.xml\n",
+  "rows": [
+    {
+      "url": "https://www.hulumart.com/",
+      "status": 200,
+      "final": "https://www.hulumart.com/",
+      "title": "Sell Old Laptop &amp; Desktop Online in Bengaluru | Instant Cash Payment | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com"
+    },
+    {
+      "url": "https://www.hulumart.com/sell",
+      "status": 200,
+      "final": "https://www.hulumart.com/sell",
+      "title": "Sell Used Laptop Online | Instant Quote &amp; Cash Payment - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/sell/laptop"
+    },
+    {
+      "url": "https://www.hulumart.com/sell/desktop",
+      "status": 200,
+      "final": "https://www.hulumart.com/sell/desktop",
+      "title": "Sell Used Desktop Online | Instant Quote &amp; Cash Payment - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/sell/desktop"
+    },
+    {
+      "url": "https://www.hulumart.com/sell/laptop",
+      "status": 200,
+      "final": "https://www.hulumart.com/sell/laptop",
+      "title": "Sell Used Laptop Online | Instant Quote &amp; Cash Payment - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/sell/laptop"
+    },
+    {
+      "url": "https://www.hulumart.com/about",
+      "status": 200,
+      "final": "https://www.hulumart.com/about",
+      "title": "About Us - Hulumart | India&#x27;s Trusted Platform for Selling Used Laptops | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/about"
+    },
+    {
+      "url": "https://www.hulumart.com/contact",
+      "status": 200,
+      "final": "https://www.hulumart.com/contact",
+      "title": "Contact Us - Hulumart | Get in Touch for Selling Your Laptop | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/contact"
+    },
+    {
+      "url": "https://www.hulumart.com/terms",
+      "status": 200,
+      "final": "https://www.hulumart.com/terms",
+      "title": "Terms of Service - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/terms"
+    },
+    {
+      "url": "https://www.hulumart.com/privacy",
+      "status": 200,
+      "final": "https://www.hulumart.com/privacy",
+      "title": "Privacy Policy - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/privacy"
+    },
+    {
+      "url": "https://www.hulumart.com/bangalore/macbook",
+      "status": 200,
+      "final": "https://www.hulumart.com/bangalore/macbook",
+      "title": "Sell MacBook in Bangalore | Best Price for Used MacBook - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/bangalore/macbook"
+    },
+    {
+      "url": "https://www.hulumart.com/bangalore",
+      "status": 200,
+      "final": "https://www.hulumart.com/bangalore",
+      "title": "Sell Used Laptop in Bangalore | Best Prices, Free Pickup - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/bangalore"
+    },
+    {
+      "url": "https://www.hulumart.com/bangalore/dell",
+      "status": 200,
+      "final": "https://www.hulumart.com/bangalore/dell",
+      "title": "Sell Dell Laptop in Bangalore | Best Price - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/bangalore/dell"
+    },
+    {
+      "url": "https://www.hulumart.com/blog",
+      "status": 200,
+      "final": "https://www.hulumart.com/blog",
+      "title": "Hulumart Blog - Laptop Buying Guides, Selling Tips &amp; Tech Insights | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/blog"
+    },
+    {
+      "url": "https://www.hulumart.com/bangalore/lenovo",
+      "status": 200,
+      "final": "https://www.hulumart.com/bangalore/lenovo",
+      "title": "Sell Lenovo Laptop in Bangalore | Best Price - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/bangalore/lenovo"
+    },
+    {
+      "url": "https://www.hulumart.com/gaming/asus-rog",
+      "status": 200,
+      "final": "https://www.hulumart.com/gaming/asus-rog",
+      "title": "Sell ASUS ROG Gaming Laptop | Best Price - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/gaming/asus-rog"
+    },
+    {
+      "url": "https://www.hulumart.com/bangalore/hp",
+      "status": 200,
+      "final": "https://www.hulumart.com/bangalore/hp",
+      "title": "Sell HP Laptop in Bangalore | Best Price - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/bangalore/hp"
+    },
+    {
+      "url": "https://www.hulumart.com/gaming/acer-predator",
+      "status": 200,
+      "final": "https://www.hulumart.com/gaming/acer-predator",
+      "title": "Sell Acer Predator Gaming Laptop | Best Price - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/gaming/acer-predator"
+    },
+    {
+      "url": "https://www.hulumart.com/models/macbook-pro",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/macbook-pro",
+      "title": "Sell MacBook Pro | Best Price for Used MacBook Pro - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/macbook-pro"
+    },
+    {
+      "url": "https://www.hulumart.com/models/dell-xps",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/dell-xps",
+      "title": "Sell Dell XPS | Best Price for Used Dell XPS - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/dell-xps"
+    },
+    {
+      "url": "https://www.hulumart.com/models/macbook-air",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/macbook-air",
+      "title": "Sell MacBook Air | Best Price for Used MacBook Air - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/macbook-air"
+    },
+    {
+      "url": "https://www.hulumart.com/models/hp-pavilion",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/hp-pavilion",
+      "title": "Sell HP Pavilion | Best Price for Used HP Pavilion - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/hp-pavilion"
+    },
+    {
+      "url": "https://www.hulumart.com/models/lenovo-thinkpad",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/lenovo-thinkpad",
+      "title": "Sell Lenovo ThinkPad | Best Price for Used ThinkPad - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/lenovo-thinkpad"
+    },
+    {
+      "url": "https://www.hulumart.com/models/asus-laptop",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/asus-laptop",
+      "title": "Sell ASUS Laptop | Best Price for Used ASUS Laptop - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/asus-laptop"
+    },
+    {
+      "url": "https://www.hulumart.com/models/acer-laptop",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/acer-laptop",
+      "title": "Sell Acer Laptop | Best Price for Used Acer Laptop - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/acer-laptop"
+    },
+    {
+      "url": "https://www.hulumart.com/models/samsung-laptop",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/samsung-laptop",
+      "title": "Sell Samsung Laptop | Best Price for Used Samsung Laptop - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/samsung-laptop"
+    },
+    {
+      "url": "https://www.hulumart.com/models/imac",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/imac",
+      "title": "Sell iMac | Best Price for Used iMac - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/imac"
+    },
+    {
+      "url": "https://www.hulumart.com/models/microsoft-surface",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/microsoft-surface",
+      "title": "Sell Microsoft Surface | Best Price for Used Surface - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/microsoft-surface"
+    },
+    {
+      "url": "https://www.hulumart.com/models/dell-optiplex",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/dell-optiplex",
+      "title": "Sell Dell OptiPlex | Best Price for Used Dell Desktop - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/dell-optiplex"
+    },
+    {
+      "url": "https://www.hulumart.com/models/hp-desktop",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/hp-desktop",
+      "title": "Sell HP Desktop | Best Price for Used HP Desktop - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/hp-desktop"
+    },
+    {
+      "url": "https://www.hulumart.com/models/lenovo-desktop",
+      "status": 200,
+      "final": "https://www.hulumart.com/models/lenovo-desktop",
+      "title": "Sell Lenovo Desktop | Best Price for Used Lenovo Desktop - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/models/lenovo-desktop"
+    },
+    {
+      "url": "https://www.hulumart.com/repair",
+      "status": 200,
+      "final": "https://www.hulumart.com/repair",
+      "title": "Laptop &amp; Desktop Repair Services - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/repair"
+    },
+    {
+      "url": "https://www.hulumart.com/blog/best-place-to-sell-used-laptop-bangalore",
+      "status": 200,
+      "final": "https://www.hulumart.com/blog/best-place-to-sell-used-laptop-bangalore",
+      "title": "Where to Sell a Used Laptop in Bangalore | Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/blog/best-place-to-sell-used-laptop-bangalore"
+    },
+    {
+      "url": "https://www.hulumart.com/blog/refurbished-vs-new-laptops",
+      "status": 200,
+      "final": "https://www.hulumart.com/blog/refurbished-vs-new-laptops",
+      "title": "Refurbished vs New Laptops: Which to Choose? | Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/blog/refurbished-vs-new-laptops"
+    },
+    {
+      "url": "https://www.hulumart.com/blog/buying-refurbished-laptop-guide",
+      "status": 200,
+      "final": "https://www.hulumart.com/blog/buying-refurbished-laptop-guide",
+      "title": "Refurbished Laptop Buying Guide: 10 Checks | Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/blog/buying-refurbished-laptop-guide"
+    },
+    {
+      "url": "https://www.hulumart.com/admin",
+      "status": 200,
+      "final": "https://www.hulumart.com/admin",
+      "title": "Admin Login - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/admin"
+    },
+    {
+      "url": "https://www.hulumart.com/admin/dashboard",
+      "status": 200,
+      "final": "https://www.hulumart.com/admin/dashboard",
+      "title": "Admin Dashboard - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/admin/dashboard"
+    },
+    {
+      "url": "https://www.hulumart.com/blog/how-to-get-highest-resale-value-for-laptop",
+      "status": 200,
+      "final": "https://www.hulumart.com/blog/how-to-get-highest-resale-value-for-laptop",
+      "title": "Laptop Resale Value: How to Compare Better Offers | Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/blog/how-to-get-highest-resale-value-for-laptop"
+    },
+    {
+      "url": "https://www.hulumart.com/blog/sell-used-laptop-bangalore",
+      "status": 200,
+      "final": "https://www.hulumart.com/blog/sell-used-laptop-bangalore",
+      "title": "Sell Your Used Laptop in Bangalore: A Guide | Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/blog/sell-used-laptop-bangalore"
+    },
+    {
+      "url": "https://www.hulumart.com/track/test",
+      "status": 200,
+      "final": "https://www.hulumart.com/track/test",
+      "title": "Track Your Order - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com"
+    },
+    {
+      "url": "https://www.hulumart.com/blog/prepare-laptop-for-sale",
+      "status": 200,
+      "final": "https://www.hulumart.com/blog/prepare-laptop-for-sale",
+      "title": "Prepare Your Laptop for Sale: A Safe Checklist | Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/blog/prepare-laptop-for-sale"
+    },
+    {
+      "url": "https://www.hulumart.com/sell/laptop/not-a-real-brand",
+      "status": 200,
+      "final": "https://www.hulumart.com/sell/laptop/not-a-real-brand",
+      "title": "Sell Used NOT-A-REAL-BRAND Laptops | Best Buyback Price - Hulumart | Hulumart",
+      "robots": "index, follow",
+      "canonical": "https://www.hulumart.com/sell/laptop/not-a-real-brand"
+    }
+  ]
+}

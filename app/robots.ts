@@ -8,14 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
         disallow: ["/admin/", "/dashboard/", "/auth/", "/track/"],
       },
-      {
-        userAgent: "Googlebot",
-        allow: "/",
-      },
-      {
-        userAgent: "Bingbot",
-        allow: "/",
-      },
     ],
     sitemap: "https://www.hulumart.com/sitemap.xml",
   };

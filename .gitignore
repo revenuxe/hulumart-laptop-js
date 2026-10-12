@@ -30,5 +30,6 @@ yarn-error.log*
 .vercel
 
 # typescript
+.next-area-verify/
 *.tsbuildinfo
 next-env.d.ts

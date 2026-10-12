@@ -163,7 +163,7 @@ export const PageClient = () => {
                       <FormItem>
                         <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input type="email" placeholder="your.email@example.com" {...field} disabled />
+                          <Input type="email" placeholder="your.email@example.com" autoComplete="email" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>

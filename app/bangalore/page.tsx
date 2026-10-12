@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
 import { PageClient } from "./page-client";
+import { sellingLandings } from "@/lib/selling-landings";
+
+const description = sellingLandings["bangalore"].intro;
+const title = "Sell Your Laptop Or Desktop in Bangalore | Hulumart";
 
 export const metadata: Metadata = {
-  title: "Sell Used Laptop in Bangalore | Best Prices, Free Pickup - Hulumart",
-  description: "Sell your used laptop at the best price with free doorstep pickup and instant cash payment.",
+  title: { absolute: title },
+  description,
   alternates: { canonical: "https://www.hulumart.com/bangalore" },
+  openGraph: { title, description, url: "https://www.hulumart.com/bangalore", type: "website", siteName: "Hulumart", images: [{ url: "/assets/hulumart-logo.png", width: 640, height: 121, alt: "Hulumart" }] },
+  twitter: { card: "summary", title, description, images: ["/assets/hulumart-logo.png"] },
 };
 
 export default function Page() {

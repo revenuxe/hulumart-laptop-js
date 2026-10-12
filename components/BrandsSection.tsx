@@ -24,6 +24,7 @@ const DEFAULT_BRANDS: Brand[] = [
   { id: 'acer', name: 'Acer', logo_url: 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Acer_Logo.svg', category_id: null, slug: 'acer' },
   { id: 'msi', name: 'MSI', logo_url: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/MSI_logo.svg', category_id: null, slug: 'msi' },
   { id: 'samsung', name: 'Samsung', logo_url: 'https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg', category_id: null, slug: 'samsung' },
+  { id: 'microsoft', name: 'Microsoft', logo_url: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg', category_id: null, slug: 'microsoft' },
 ];
 
 export function BrandsSection() {
@@ -47,7 +48,7 @@ export function BrandsSection() {
           .select('id, name, logo_url, category_id, slug')
           .eq('category_id', categoryData.id)
           .order('name')
-          .limit(8);
+          .limit(9);
         
         if (data && data.length > 0) setBrands(data);
       }
@@ -68,12 +69,12 @@ export function BrandsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-2.5 sm:gap-4 md:gap-6 max-w-5xl mx-auto mb-6 sm:mb-8">
-          {brands.map((brand) => (
+        <div className="grid grid-cols-3 md:grid-cols-4 gap-2.5 sm:gap-4 md:gap-6 max-w-5xl mx-auto mb-6 sm:mb-8">
+          {brands.map((brand, index) => (
             <Link
               key={brand.id}
               href={`/sell/laptop/${brand.slug || ''}`}
-              className="block"
+              className={index >= 8 ? "block md:hidden" : "block"}
             >
               <Card className="cursor-pointer p-3 sm:p-6 hover:border-primary hover:shadow-lg transition-all group rounded-xl sm:rounded-lg">
                 {brand.logo_url ? (

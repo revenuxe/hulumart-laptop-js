@@ -82,7 +82,7 @@ export default function RootLayout({
               name: "Hulumart",
               url: "https://www.hulumart.com",
               logo: "https://www.hulumart.com/assets/hulumart-logo.png",
-              description: "India's most trusted platform for selling used laptops and desktops",
+              description: "Sell used laptops and desktops with Hulumart in Bangalore",
               telephone: "+919886579923",
               address: {
                 "@type": "PostalAddress",
@@ -137,11 +137,6 @@ export default function RootLayout({
                   closes: "19:00",
                 },
               ],
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "4.8",
-                reviewCount: "500",
-              },
             }),
           }}
         />
