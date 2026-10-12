@@ -1,0 +1,4946 @@
+[
+  {
+    "brand": "Dell",
+    "series": "Latitude 3000 Series",
+    "model": "Latitude 3450 (original model)",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 3000 Series",
+    "model": "Latitude 3460",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 3000 Series",
+    "model": "Latitude 3470",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 3000 Series",
+    "model": "Latitude 3480",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 3000 Series",
+    "model": "Latitude 3490",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 3000 Series",
+    "model": "Latitude 3400",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 3000 Series",
+    "model": "Latitude 3410",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 3000 Series",
+    "model": "Latitude 3420",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 3000 Series",
+    "model": "Latitude 3430",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 3000 Series",
+    "model": "Latitude 3440",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 3000 Series",
+    "model": "Latitude 3450 (new model)",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude E5450",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude E5470",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5480",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5490",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5400",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5410",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5420",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5430",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5440",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5450",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5455",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude E5550",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude E5570",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5580",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5590",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5500",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5510",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5520",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5530",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5540",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 5000 Series",
+    "model": "Latitude 5550",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude E7450",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude E7470",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7480",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7490",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7400",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7410",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7420",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7430",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7440",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7450",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7280",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7290",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7300",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7310",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7320",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7330",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7340",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Latitude 7000 Series",
+    "model": "Latitude 7350",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 13 9343",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 13 9350",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 13 9360",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 13 9370",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 13 9380",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 13 9300",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 13 9310",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 13 9315",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 13 9320 Plus",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 13 9340",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 15 9550",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 15 9560",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 15 9570",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 15 7590",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 15 9500",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 15 9510",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 15 9520",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 15 9530",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 17 9700",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 17 9710",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 17 9720",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "XPS Series",
+    "model": "XPS 17 9730",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 15 5558",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 15 5559",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 15 5567",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 15 5570",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 15 5584",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 15 5593",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 15 3501",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 15 3511",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 15 3520",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 15 3530",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 15 3535",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 14 5468",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 14 5480",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 14 5490",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 14 5402",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 14 5410",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 14 5420",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 14 5430",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 14 5440",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 16 5620",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 16 5630",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Inspiron Series",
+    "model": "Inspiron 16 5640",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 15 3558",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 15 3568",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 15 3578",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 15 3580",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 15 3590",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 15 3500",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 15 3510",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 15 3520",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 15 3530",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 14 3468",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 14 3478",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 14 3480",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 14 3490",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 14 3400",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 14 3420",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Vostro Series",
+    "model": "Vostro 14 3430",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 3510",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 3520",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 3530",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 3540",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 3550",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 3560",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 3570",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 3580",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 3590",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 5510",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 5520",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 5530",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 5540",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 5550",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 5560",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 5570",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 5680",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Precision Mobile Workstation Series",
+    "model": "Precision 5690",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Dell G Series Gaming",
+    "model": "G3 3579",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Dell G Series Gaming",
+    "model": "G3 3590",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Dell G Series Gaming",
+    "model": "G3 3500",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Dell G Series Gaming",
+    "model": "G5 5587",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Dell G Series Gaming",
+    "model": "G5 5590",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Dell G Series Gaming",
+    "model": "G5 5500",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Dell G Series Gaming",
+    "model": "G15 5510",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Dell G Series Gaming",
+    "model": "G15 5511",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Dell G Series Gaming",
+    "model": "G15 5520",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Dell G Series Gaming",
+    "model": "G15 5525",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Dell G Series Gaming",
+    "model": "G15 5530",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Dell",
+    "series": "Dell G Series Gaming",
+    "model": "G15 5535",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 840 G2",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 840 G3",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 840 G4",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 840 G5",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 840 G6",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 840 G7",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 840 G8",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 840 G9",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 840 G10",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 840 G11",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 845 G7",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 845 G8",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 845 G9",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 845 G10",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 845 G11",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 830 G5",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 830 G6",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 830 G7",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 830 G8",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 830 G9",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 830 G10",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 830 G11",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 850 G5",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 850 G6",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 850 G7",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 850 G8",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 860 G9",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 860 G10",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "EliteBook 800 Series",
+    "model": "EliteBook 860 G11",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 440 G2",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 440 G3",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 440 G4",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 440 G5",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 440 G6",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 440 G7",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 440 G8",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 440 G9",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 440 G10",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 440 G11",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 450 G2",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 450 G3",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 450 G4",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 450 G5",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 450 G6",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 450 G7",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 450 G8",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 450 G9",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 450 G10",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 450 G11",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 445 G7",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 445 G8",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 445 G9",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 445 G10",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "ProBook 400 Series",
+    "model": "ProBook 445 G11",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Spectre Series",
+    "model": "Spectre x360 13 (2015)",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Spectre Series",
+    "model": "Spectre x360 13 (2016)",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Spectre Series",
+    "model": "Spectre x360 13 (2017)",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Spectre Series",
+    "model": "Spectre x360 13 (2018)",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Spectre Series",
+    "model": "Spectre x360 13 (2019)",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Spectre Series",
+    "model": "Spectre x360 13 (2020)",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Spectre Series",
+    "model": "Spectre x360 14 (2020)",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Spectre Series",
+    "model": "Spectre x360 14 (2022)",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Spectre Series",
+    "model": "Spectre x360 14 (2024)",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Spectre Series",
+    "model": "Spectre x360 16 (2022)",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Spectre Series",
+    "model": "Spectre x360 16 (2024)",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "OMEN 15 (2016)",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "OMEN 15 (2018)",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "OMEN 15 (2020)",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "OMEN 16 (2021)",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "OMEN 16 (2023)",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "OMEN 16 (2025)",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "OMEN 17 (2017)",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "OMEN Transcend 16",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "OMEN Transcend 14",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "Victus 16 (2021)",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "Victus 15 (2022)",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "Victus 16 (2023)",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "Gaming Series",
+    "model": "Victus 15 (2024)",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "OmniBook Series",
+    "model": "OmniBook X 14",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "OmniBook Series",
+    "model": "OmniBook Ultra 14",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "OmniBook Series",
+    "model": "OmniBook Ultra Flip 14",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "OmniBook Series",
+    "model": "OmniBook 5 14",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "OmniBook Series",
+    "model": "OmniBook 5 16",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "OmniBook Series",
+    "model": "OmniBook 7 14",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "OmniBook Series",
+    "model": "OmniBook 7 16",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "HP",
+    "series": "OmniBook Series",
+    "model": "OmniBook Ultra 14 (2026 refresh)",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T450",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T450s",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T460",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T460s",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T470",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T470s",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T480",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T480s",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T490",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T490s",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14 Gen 1",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14 Gen 2",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14 Gen 3",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14 Gen 4",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14 Gen 5",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14 Gen 6",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14 Gen 7",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14s Gen 1",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14s Gen 2",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14s Gen 3",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14s Gen 4",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14s Gen 5",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14s Gen 6",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad T Series",
+    "model": "ThinkPad T14s Gen 7",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X1 Carbon Series",
+    "model": "X1 Carbon Gen 3",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X1 Carbon Series",
+    "model": "X1 Carbon Gen 4",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X1 Carbon Series",
+    "model": "X1 Carbon Gen 5",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X1 Carbon Series",
+    "model": "X1 Carbon Gen 6",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X1 Carbon Series",
+    "model": "X1 Carbon Gen 7",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X1 Carbon Series",
+    "model": "X1 Carbon Gen 8",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X1 Carbon Series",
+    "model": "X1 Carbon Gen 9",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X1 Carbon Series",
+    "model": "X1 Carbon Gen 10",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X1 Carbon Series",
+    "model": "X1 Carbon Gen 11",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X1 Carbon Series",
+    "model": "X1 Carbon Gen 12",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X1 Carbon Series",
+    "model": "X1 Carbon Gen 13",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X1 Carbon Series",
+    "model": "X1 Carbon Gen 14",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E450",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E460",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E470",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E480",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E490",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E14 Gen 1",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E14 Gen 2",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E14 Gen 3",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E14 Gen 4",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E14 Gen 5",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E14 Gen 6",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E14 Gen 7",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E15 Gen 1",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E15 Gen 2",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E15 Gen 3",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E16 Gen 1",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E16 Gen 2",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad E Series",
+    "model": "ThinkPad E16 Gen 3",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X250",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X260",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X270",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X280",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X390",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X13 Gen 1",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X13 Gen 2",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X13 Gen 3",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X13 Gen 4",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X13 Gen 5",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X13 Gen 6",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X1 Nano Gen 1",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X1 Nano Gen 2",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad X Series",
+    "model": "ThinkPad X1 Nano Gen 3",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P50",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P51",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P52",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P53",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P15 Gen 1",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P15 Gen 2",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P16 Gen 1",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P16 Gen 2",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P16 Gen 3",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P1 Gen 1",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P1 Gen 2",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P1 Gen 3",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P1 Gen 4",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P1 Gen 5",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P1 Gen 6",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Lenovo",
+    "series": "ThinkPad P Series",
+    "model": "ThinkPad P1 Gen 7",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 11-inch Early 2015",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 13-inch Early 2015",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 13-inch 2017",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air Retina 13-inch 2018",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air Retina 13-inch 2019",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air Retina 13-inch 2020 Intel",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 13-inch M1",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 13-inch M2",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 15-inch M2",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 13-inch M3",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 15-inch M3",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 13-inch M4",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 15-inch M4",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 13-inch M5",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 15-inch M5",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro Retina 13-inch Early 2015",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro Retina 15-inch Mid 2015",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 13-inch 2016",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 15-inch 2016",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 13-inch 2017",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 15-inch 2017",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 13-inch 2018",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 15-inch 2018",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 13-inch 2019",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 15-inch 2019",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 16-inch Intel",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 13-inch Intel",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 13-inch M1",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14-inch M1 Pro / Max",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 16-inch M1 Pro / Max",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 13-inch M2",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14-inch M2 Pro / Max",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 16-inch M2 Pro / Max",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14-inch M3",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14-inch M3 Pro / Max",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 16-inch M3 Pro / Max",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14-inch M4",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14-inch M4 Pro / Max",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 16-inch M4 Pro / Max",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14-inch M5",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14-inch M5 Pro / Max",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 16-inch M5 Pro / Max",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook and MacBook Neo",
+    "model": "MacBook Retina 12-inch",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook and MacBook Neo",
+    "model": "MacBook Retina 12-inch",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook and MacBook Neo",
+    "model": "MacBook Retina 12-inch",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook and MacBook Neo",
+    "model": "MacBook Neo",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire E5-571",
+    "year": 2015,
+    "approximateYear": true,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire E5-573",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire E5-575",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire E5-576",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A315-21",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A315-31",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A315-41",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A315-53",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A315-54",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A315-56",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A315-57",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A315-58",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A315-59",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A315-24P",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A515-51",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A515-52",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A515-54",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A515-55",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A515-56",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A515-57",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A515-58M",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire A515-48M",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire Go 15 AG15-31P",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Aspire Series",
+    "model": "Aspire Go 14 AG14-31P",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 3 SF314-51",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 3 SF314-52",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 3 SF314-54",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 3 SF314-55",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 3 SF314-57",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 3 SF314-59",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 3 SF314-511",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 3 SF314-512",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 5 SF514-51",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 5 SF514-52T",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 5 SF514-54T",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 5 SF514-55TA",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift X SFX14-41G",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift X SFX14-51G",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift Go 14 SFG14-71",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift Go 14 SFG14-72",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Swift Series",
+    "model": "Swift 16 AI",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro 5 AN515-51",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro 5 AN515-52",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro 5 AN515-54",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro 5 AN515-55",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro 5 AN515-56",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro 5 AN515-57",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro 5 AN515-58",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro 5 AN515-46",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro V 15 ANV15-51",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro V 15 ANV15-41",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro V 16 ANV16-41",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro 16 AN16-41",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Nitro Gaming Series",
+    "model": "Nitro 17 AN17-41",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Helios 300 G3-571",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Helios 300 PH315-51",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Helios 300 PH315-52",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Helios 300 PH315-53",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Helios 300 PH315-54",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Helios 300 PH315-55",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Helios Neo 16 PHN16-71",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Helios Neo 16 PHN16-72",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Helios Neo 16 AI PHN16-73",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Triton 500 PT515-51",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Triton 500 PT515-52",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Triton 300 PT315-51",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Acer",
+    "series": "Predator Gaming Series",
+    "model": "Predator Triton 300 SE PT314-51s",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook X540SA",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook X541UA",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook X507UA",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook X509FA",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook 14 X412FA",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook 15 X512FA",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook 14 X413EA",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook 15 X515EA",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook 14 X415EA",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook 15 X1500EA",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook 15 X1502ZA",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook 16 X1605ZA",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook Go 15 E1504FA",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook 15 X1504VA",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook S15 S5507QA",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "VivoBook Series",
+    "model": "VivoBook S16 S5606",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook UX305",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook UX310UA",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook UX330UA",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook UX331UN",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook UX333FA",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook UX433FA",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook UX434FL",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook UX425JA",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook UX435EG",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook 14 OLED UX3402",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook S13 OLED UX5304",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook 14 OLED UX3405",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook Duo UX8406",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook A14 UX3407",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook Duo (2026 refresh)",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ZenBook Series",
+    "model": "ZenBook A16",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "TUF Gaming Series",
+    "model": "TUF Gaming FX504",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "TUF Gaming Series",
+    "model": "TUF Gaming FX505",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "TUF Gaming Series",
+    "model": "TUF Gaming FX506",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "TUF Gaming Series",
+    "model": "TUF Gaming A15 FA506",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "TUF Gaming Series",
+    "model": "TUF Gaming F15 FX506",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "TUF Gaming Series",
+    "model": "TUF Gaming A15 FA507",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "TUF Gaming Series",
+    "model": "TUF Gaming F15 FX507",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "TUF Gaming Series",
+    "model": "TUF Gaming A16 Advantage FA617",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "TUF Gaming Series",
+    "model": "TUF Gaming F16 FX607",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "TUF Gaming Series",
+    "model": "TUF Gaming A14 FA401",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "TUF Gaming Series",
+    "model": "TUF Gaming A16 FA608",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG GL552",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG GL553",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Strix GL503",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Strix G531",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Strix G15 G512",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Strix G15 G513",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Strix G15 G533",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Strix G16 G614",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Strix G18 G814",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Zephyrus G14 GA401",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Zephyrus G14 GA402",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Zephyrus G14 GA403",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Zephyrus G16 GU605",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Zephyrus G16 GU606",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Flow X13 GV301",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Flow X16 GV601",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "ASUS",
+    "series": "ROG Gaming Series",
+    "model": "ROG Flow Z13 GZ301",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Modern Series",
+    "model": "Modern 14 A10M",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Modern Series",
+    "model": "Modern 14 B10MW",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Modern Series",
+    "model": "Modern 14 B11M",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Modern Series",
+    "model": "Modern 14 C12M",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Modern Series",
+    "model": "Modern 14 C13M",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Modern Series",
+    "model": "Modern 14 C7M",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Modern Series",
+    "model": "Modern 15 A10M",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Modern Series",
+    "model": "Modern 15 A11M",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Modern Series",
+    "model": "Modern 15 B12M",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Modern Series",
+    "model": "Modern 15 B13M",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Modern Series",
+    "model": "Modern 15 H B13M",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Prestige Series",
+    "model": "Prestige PS42",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Prestige Series",
+    "model": "Prestige 14 A10SC",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Prestige Series",
+    "model": "Prestige 15 A10SC",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Prestige Series",
+    "model": "Prestige 14 Evo A11M",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Prestige Series",
+    "model": "Prestige 15 A11SC",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Prestige Series",
+    "model": "Prestige 14 Evo B12M",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Prestige Series",
+    "model": "Prestige 13 Evo A13M",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Prestige Series",
+    "model": "Prestige 16 Studio A13V",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Prestige Series",
+    "model": "Prestige 13 AI Evo A1M",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Prestige Series",
+    "model": "Prestige 16 AI Evo B1M",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "GF63 Thin 8RC",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "GF63 Thin 9SC",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "GF63 Thin 10SC",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "GF63 Thin 11SC",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "GF63 Thin 12UC",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "GF63 Thin 12VE",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Katana GF66 11UC",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Katana GF66 12UC",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Katana 15 B12V",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Katana 15 B13V",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Cyborg 15 A12V",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Cyborg 15 A13V",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Raider GE76 10UH",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Raider GE78 HX 13V",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Raider GE78 HX 14V",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Titan GT77 12U",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Titan GT77 HX 13V",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Titan 18 HX A14V",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "MSI",
+    "series": "Gaming Series",
+    "model": "Raider 16 Max HX B2WJ",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 14Z950",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 15Z960",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 14Z970",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 15Z980",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 17Z990",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 14Z90N",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 15Z90N",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 17Z90N",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 14Z90P",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 16Z90P",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 17Z90P",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 14Z90Q",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 16Z90Q",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 17Z90Q",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 14Z90R",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 16Z90R",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 17Z90R",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 16Z90S",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram 17Z90S",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram Pro 16Z90SP",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "LG",
+    "series": "Gram Series",
+    "model": "Gram Pro 17Z90SP",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop 1",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop 2",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop 3",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop 4",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop 5",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop 6 for Business",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop 7",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop Go",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop Go 2",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop Go 3",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop Studio",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop Studio 2",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop 13-inch",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Laptop Series",
+    "model": "Surface Laptop Ultra (announced)",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": true
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Pro Series",
+    "model": "Surface Pro 4",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Pro Series",
+    "model": "Surface Pro 5",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Pro Series",
+    "model": "Surface Pro 6",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Pro Series",
+    "model": "Surface Pro 7",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Pro Series",
+    "model": "Surface Pro 7+",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Pro Series",
+    "model": "Surface Pro 8",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Pro Series",
+    "model": "Surface Pro 9",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Pro Series",
+    "model": "Surface Pro 10 for Business",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Pro Series",
+    "model": "Surface Pro 11",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Pro Series",
+    "model": "Surface Pro 12-inch",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Book and Go Series",
+    "model": "Surface Book",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Book and Go Series",
+    "model": "Surface Book 2",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Book and Go Series",
+    "model": "Surface Book 3",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Book and Go Series",
+    "model": "Surface Go",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Book and Go Series",
+    "model": "Surface Go 2",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Book and Go Series",
+    "model": "Surface Go 3",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Book and Go Series",
+    "model": "Surface Go 4",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Book and Go Series",
+    "model": "Surface Pro X",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Microsoft",
+    "series": "Surface Book and Go Series",
+    "model": "Surface Laptop SE",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book 10.6",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book 12",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book S",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book Flex",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book Ion",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book Pro 13",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book Pro 15",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book Pro 360",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book2",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book2 Pro",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book2 Pro 360",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book3",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book3 360",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book3 Pro",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book3 Pro 360",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book3 Ultra",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book4",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book4 360",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book4 Pro",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book4 Pro 360",
+    "year": 2023,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book4 Ultra",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book4 Edge",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book5 Pro 360",
+    "year": 2024,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book5 Pro",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book5 360",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book5 Ultra",
+    "year": 2025,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book6",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book6 Pro",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Galaxy Book Series",
+    "model": "Galaxy Book6 Ultra",
+    "year": 2026,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Samsung Notebook Series",
+    "model": "Notebook 9",
+    "year": 2015,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Samsung Notebook Series",
+    "model": "Notebook 9 Spin",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Samsung Notebook Series",
+    "model": "Notebook 9 Pro",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Samsung Notebook Series",
+    "model": "Notebook 9 Pen",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Samsung Notebook Series",
+    "model": "Notebook Flash",
+    "year": 2018,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Samsung Notebook Series",
+    "model": "Notebook 7 Spin",
+    "year": 2016,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Samsung Notebook Series",
+    "model": "Notebook 7 Force",
+    "year": 2019,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Samsung Notebook Series",
+    "model": "Chromebook Pro",
+    "year": 2017,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Samsung Notebook Series",
+    "model": "Galaxy Chromebook",
+    "year": 2020,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Samsung Notebook Series",
+    "model": "Galaxy Chromebook 2",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Samsung Notebook Series",
+    "model": "Galaxy Chromebook Go",
+    "year": 2021,
+    "approximateYear": false,
+    "announced": false
+  },
+  {
+    "brand": "Samsung",
+    "series": "Samsung Notebook Series",
+    "model": "Galaxy Chromebook 2 360",
+    "year": 2022,
+    "approximateYear": false,
+    "announced": false
+  }
+]

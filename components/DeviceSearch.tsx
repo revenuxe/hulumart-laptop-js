@@ -177,20 +177,22 @@ export function DeviceSearch() {
       )}
 
       {/* Popular Brands (Static for instant rendering) */}
-      <div className="mt-5 flex flex-wrap items-center justify-center gap-2 sm:gap-3">
-        <span className="w-full text-center text-xs sm:text-sm font-medium text-muted-foreground mb-1">
-          Popular Brands:
-        </span>
+      <section className="mt-5 text-left" aria-labelledby="popular-brands-heading">
+        <div className="mb-3 flex items-center justify-between gap-3">
+          <h2 id="popular-brands-heading" className="text-base font-semibold text-foreground sm:text-lg">Popular Brands</h2>
+          <Link href="/sell/laptop" className="text-xs font-medium text-primary hover:underline underline-offset-4">View all</Link>
+        </div>
+        <div className="grid auto-cols-[78px] grid-flow-col gap-2.5 overflow-x-auto pb-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:auto-cols-[84px] sm:gap-3">
         {POPULAR_BRANDS.map(brand => (
           <Link
             key={brand.slug}
             href={`/sell/laptop/${brand.slug}`}
-            className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full border border-border bg-card/80 hover:bg-accent hover:border-primary/50 shadow-sm transition-all text-xs sm:text-sm font-medium hover:scale-105"
+            className="flex min-h-[92px] flex-col items-center justify-center gap-3 rounded-[20px] border border-primary/15 bg-card px-2 py-3 text-center text-[11px] font-medium shadow-[0_3px_8px_-4px_rgba(15,23,42,0.2)] transition-colors hover:border-primary/50 hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary sm:min-h-[100px] sm:text-xs"
           >
             <img
               src={brand.logo_url}
               alt={brand.name}
-              className="h-4 w-4 sm:h-5 sm:w-5 object-contain"
+              className="h-8 w-12 object-contain sm:h-9"
               onError={(e) => {
                 e.currentTarget.style.display = 'none';
               }}
@@ -198,7 +200,8 @@ export function DeviceSearch() {
             <span>{brand.name}</span>
           </Link>
         ))}
-      </div>
+        </div>
+      </section>
     </div>
   );
 }

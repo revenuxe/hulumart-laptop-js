@@ -2,7 +2,9 @@
 
 import { useEffect, useLayoutEffect, useState, useMemo } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { Laptop, Monitor, Search, Loader2 } from "lucide-react";
+import { Laptop, Monitor, Search } from "lucide-react";
+import LoadingIndicator from "@/components/LoadingIndicator";
+import { cachedCatalog } from "@/lib/catalog-cache";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SimpleForm from "@/components/SimpleForm";
@@ -78,6 +80,9 @@ export const SellClient = () => {
 
   const [catalogError, setCatalogError] = useState<string | null>(null);
   const [retryCount, setRetryCount] = useState(0);
+  const routeKey = route.join("/");
+  const [resolvedRoute, setResolvedRoute] = useState<string | null>(null);
+  const awaitingRoute = Boolean(stepOverride) || (Boolean(categorySlug) && resolvedRoute !== routeKey);
   const [loadingCatalog, setLoadingCatalog] = useState(Boolean(categorySlug));
 
   // Resolve the complete URL in one request sequence. Never leave a failed
@@ -89,6 +94,7 @@ export const SellClient = () => {
       cancelled = true;
       controller.abort();
       setCatalogError("Loading took too long. Check your connection and try again, or request a callback.");
+      setResolvedRoute(routeKey);
       setLoadingCatalog(false);
       setLoadingBrands(false); setLoadingSeries(false); setLoadingModels(false);
     }, 15000);
@@ -103,31 +109,27 @@ export const SellClient = () => {
     async function loadCatalog() {
       try {
         if (!categorySlug) return;
-        const categoryResult = await supabase.from("categories").select("id").eq("slug", categorySlug).abortSignal(controller.signal).maybeSingle();
-        if (categoryResult.error) throw categoryResult.error;
-        if (!categoryResult.data) throw new Error("This device category is not available. Please choose another category.");
-        const brandResult = await supabase.from("brands").select("*").eq("category_id", categoryResult.data.id).order("name").abortSignal(controller.signal);
-        if (brandResult.error) throw brandResult.error;
+        const categoryResult = await cachedCatalog(`category:${categorySlug}`, () => supabase.from("categories").select("id").eq("slug", categorySlug).abortSignal(controller.signal).maybeSingle(), controller.signal);
+        if (!categoryResult) throw new Error("This device category is not available. Please choose another category.");
+        const brandResult = await cachedCatalog(`brands:${categoryResult.id}`, () => supabase.from("brands").select("id,name,slug,logo_url").eq("category_id", categoryResult.id).order("name").abortSignal(controller.signal), controller.signal);
         if (cancelled) return;
-        const brandItems = (brandResult.data || []) as CatalogItem[];
+        const brandItems = (brandResult || []) as CatalogItem[];
         setBrands(brandItems);
         if (!brandSlug) return;
         const selectedBrand = brandItems.find(item => item.slug === brandSlug);
         if (!selectedBrand) throw new Error("This brand is not available in the selected category. Please choose your device again.");
         setBrandObj(selectedBrand);
-        const seriesResult = await supabase.from("series").select("*").eq("brand_id", selectedBrand.id).order("name").abortSignal(controller.signal);
-        if (seriesResult.error) throw seriesResult.error;
+        const seriesResult = await cachedCatalog(`series:${selectedBrand.id}`, () => supabase.from("series").select("id,name,slug,image_url").eq("brand_id", selectedBrand.id).order("name").abortSignal(controller.signal), controller.signal);
         if (cancelled) return;
-        const seriesItems = (seriesResult.data || []) as CatalogItem[];
+        const seriesItems = (seriesResult || []) as CatalogItem[];
         setSeries(seriesItems);
         if (!seriesSlug) return;
         const selectedSeries = seriesItems.find(item => item.slug === seriesSlug);
         if (!selectedSeries) throw new Error("This series is no longer available. Please choose a series from the catalog.");
         setSeriesObj(selectedSeries);
-        const modelResult = await supabase.from("models").select("*").eq("series_id", selectedSeries.id).eq("active", true).order("name").abortSignal(controller.signal);
-        if (modelResult.error) throw modelResult.error;
+        const modelResult = await cachedCatalog(`models:${selectedSeries.id}`, () => supabase.from("models").select("id,name,slug,thumbnail_url").eq("series_id", selectedSeries.id).eq("active", true).order("name").abortSignal(controller.signal), controller.signal);
         if (cancelled) return;
-        const modelItems = (modelResult.data || []) as CatalogItem[];
+        const modelItems = (modelResult || []) as CatalogItem[];
         setModels(modelItems);
         if (!modelSlug) return;
         const selectedModel = modelItems.find(item => item.slug === modelSlug);
@@ -140,6 +142,7 @@ export const SellClient = () => {
       } finally {
         window.clearTimeout(timeout);
         if (!cancelled) {
+          setResolvedRoute(routeKey);
           setLoadingCatalog(false);
           setLoadingBrands(false); setLoadingSeries(false); setLoadingModels(false);
         }
@@ -147,7 +150,7 @@ export const SellClient = () => {
     }
     void loadCatalog();
     return () => { cancelled = true; window.clearTimeout(timeout); controller.abort(); };
-  }, [categorySlug, brandSlug, seriesSlug, modelSlug, retryCount]);
+  }, [categorySlug, brandSlug, seriesSlug, modelSlug, retryCount, routeKey]);
 
   // ── Navigation handlers ──
   // Set stepOverride FIRST so the UI updates instantly, then push to router.
@@ -158,6 +161,8 @@ export const SellClient = () => {
     router.push(`/sell/${value}`);
   };
   const pickBrand = (value: CatalogItem) => {
+    setLoadingSeries(true);
+    setCatalogError(null);
     setStepOverride("series");
     setBrandObj(value);
     setSearch("");
@@ -165,12 +170,16 @@ export const SellClient = () => {
     router.push(`/sell/${categorySlug}/${value.slug}`);
   };
   const pickSeries = (value: CatalogItem) => {
+    setLoadingModels(true);
+    setCatalogError(null);
     setStepOverride("model");
     setSeriesObj(value);
     setSearch("");
     router.push(`/sell/${categorySlug}/${brandSlug}/${value.slug}`);
   };
   const pickModel = (value: CatalogItem) => {
+    setLoadingCatalog(true);
+    setCatalogError(null);
     setStepOverride("booking");
     setModelObj(value);
     router.push(`/sell/${categorySlug}/${brandSlug}/${seriesSlug}/${value.slug}`);
@@ -179,18 +188,14 @@ export const SellClient = () => {
   const onForm = () => { setFormOpen(true); };
 
   // ── Rendering helpers ──
-  const loadingSpinner = (
-    <div className="col-span-full flex items-center justify-center py-10">
-      <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
-    </div>
-  );
+  const loadingSpinner = <div className="col-span-full"><LoadingIndicator label="Finding your device options…" /><div aria-hidden="true" className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">{Array.from({ length: 4 }, (_, i) => <div key={i} className="h-36 rounded-2xl border bg-card p-4"><div className="mx-auto h-16 w-20 rounded-xl bg-muted motion-safe:animate-pulse" /><div className="mx-auto mt-4 h-3 w-24 rounded bg-muted motion-safe:animate-pulse" /></div>)}</div></div>;
 
   const catalogCards = (items: CatalogItem[], choose: (item: CatalogItem) => void, imageField: "logo_url" | "image_url" | "thumbnail_url", isLoading: boolean) => {
     const isBrand = imageField === "logo_url";
     const filtered = items.filter((item) => item.name.toLowerCase().includes(search.toLowerCase()));
     return (
       <div className={isBrand ? "grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6" : "grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4"}>
-        {isLoading ? loadingSpinner : filtered.length === 0 ? (
+        {isLoading || awaitingRoute ? loadingSpinner : filtered.length === 0 ? (
           <div className="col-span-full py-10 text-center text-sm text-muted-foreground">
             {items.length === 0 ? "No options available." : "No results found."}
           </div>
@@ -272,13 +277,13 @@ export const SellClient = () => {
             </section>
           )}
 
-          {!catalogError && !loadingCatalog && step === "booking" && modelObj && brandObj && categorySlug && (
+          {!catalogError && !loadingCatalog && !awaitingRoute && step === "booking" && modelObj && brandObj && categorySlug && (
             <ModelBookingCard key={modelObj.id} category={categorySlug} brand={brandObj.name} model={modelObj.name} modelId={modelObj.id} modelImage={modelObj.image_url || modelObj.thumbnail_url} />
           )}
           {/* If booking step but objects not yet resolved from URL, show spinner */}
-          {!catalogError && step === "booking" && loadingCatalog && (
+          {!catalogError && step === "booking" && (loadingCatalog || awaitingRoute) && (
             <div className="flex items-center justify-center py-20">
-              <div role="status" className="flex flex-col items-center gap-3"><Loader2 aria-hidden="true" className="h-8 w-8 animate-spin text-muted-foreground" /><p className="text-sm text-muted-foreground">Loading your selected device…</p></div>
+              <LoadingIndicator label="Preparing your booking…" />
             </div>
           )}
 
