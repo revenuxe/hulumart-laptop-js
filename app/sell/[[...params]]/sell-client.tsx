@@ -247,10 +247,10 @@ export const SellClient = ({ initialData }: { initialData: CatalogPageData }) =>
       <Header />
       <main className="flex-1 bg-muted/20 py-10">
         <div className="container max-w-7xl px-4">
-          <div className="mb-8 text-center">
+          {step !== "booking" && <div className="mb-8 text-center">
             <h1 className="text-3xl font-bold">{step === "series" ? `Choose your ${brandObj?.name || "laptop"} series` : step === "model" ? `Choose your ${seriesObj?.name || "device"} model` : step === "brand" ? `Choose your ${categorySlug || "device"} brand` : "Sell your device"}</h1>
             <p className="mt-2 text-muted-foreground">Quick, simple and convenient.</p>
-          </div>
+          </div>}
 
           {catalogError && <section role="alert" className="mx-auto mb-6 max-w-xl rounded-2xl border bg-card p-6 text-center"><h2 className="text-xl font-semibold">Let’s get your device selected</h2><p className="mt-3 text-sm leading-6 text-muted-foreground">{catalogError}</p><div className="mt-5 flex flex-wrap justify-center gap-3"><button type="button" className="rounded-xl bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground" onClick={() => setRetryCount(count => count + 1)}>Try again</button><button type="button" className="rounded-xl border px-4 py-3 text-sm font-semibold" onClick={() => { setStepOverride(null); setCatalog(true); router.push(categorySlug ? "/sell/" + categorySlug : "/sell"); }}>Choose another device</button><button type="button" className="rounded-xl border px-4 py-3 text-sm font-semibold" onClick={onForm}>Request a callback</button></div></section>}
 
