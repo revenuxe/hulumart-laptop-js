@@ -227,9 +227,9 @@ export const generateInvoice = async (data: InvoiceData) => {
       <div class="invoice-container">
         <div class="header">
           <div class="logo-section">
-            <img src="${logoImage}" alt="Laptap.in Logo" class="logo" />
+            <img src="${logoImage}" alt="Hulumart.in Logo" class="logo" />
             <div class="company-info">
-              <h1>Laptap.in</h1>
+              <h1>Hulumart.in</h1>
               <p>Best Place to Sell Your Devices</p>
               <p>www.laptap.in</p>
             </div>
@@ -305,7 +305,7 @@ export const generateInvoice = async (data: InvoiceData) => {
         </div>
         
         <div class="thank-you">
-          Thank you for choosing Laptap.in! 🎉
+          Thank you for choosing Hulumart.in! 🎉
         </div>
         
         <div class="footer">
@@ -313,7 +313,7 @@ export const generateInvoice = async (data: InvoiceData) => {
             <strong>Disclaimer:</strong> This is not a sales invoice. This is just a booking invoice with reference number. 
             Sales invoice will be shared once the device is picked up.
           </p>
-          <p><strong>Laptap.in</strong> - Your Trusted Device Selling Platform</p>
+          <p><strong>Hulumart.in</strong> - Your Trusted Device Selling Platform</p>
           <p>Contact: laptap.in@gmail.com</p>
           <p>This is a computer-generated invoice and does not require a signature.</p>
         </div>

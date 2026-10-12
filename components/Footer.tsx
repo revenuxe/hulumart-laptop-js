@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-2 gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-7">
           {/* Logo - full width on mobile */}
           <div className="col-span-2 sm:col-span-1 space-y-3 sm:space-y-4">
-            <img src="/assets/laptop_logo.webp" alt="Laptap Logo" className="h-8 sm:h-10" />
+            <img src="/assets/hulumart-logo.avif" alt="Hulumart Logo" className="h-auto w-48 object-contain dark:rounded-lg dark:bg-white dark:p-2" />
             <p className="text-xs sm:text-sm text-muted-foreground">
               India's most trusted platform for selling used laptops and desktops.
             </p>
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="mt-8 sm:mt-12 border-t pt-6 sm:pt-8">
           <div className="flex flex-col items-center justify-between gap-3 sm:gap-4 text-xs sm:text-sm text-muted-foreground md:flex-row">
-            <p>&copy; {new Date().getFullYear()} Laptap. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Hulumart. All rights reserved.</p>
             <div className="flex items-center gap-4">
               <a href="https://www.facebook.com/ilaptap/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" aria-label="Facebook">
                 <Facebook className="h-4 w-4 sm:h-5 sm:w-5" />

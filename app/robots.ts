@@ -17,6 +17,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://www.laptap.in/sitemap.xml",
+    sitemap: "https://www.hulumart.com/sitemap.xml",
   };
 }

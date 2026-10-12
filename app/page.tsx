@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { HomeClient } from "./home-client";
 
 export const metadata: Metadata = {
-  title: "Sell Old Laptop & Desktop Online in Bengaluru | Instant Cash Payment | Laptap",
+  title: "Sell Old Laptop & Desktop Online in Bengaluru | Instant Cash Payment | Hulumart",
   description:
     "Sell your old laptop or desktop computer for instant cash in Bengaluru. Get best prices, free doorstep pickup, instant payment within 24 hours. Trusted by 10,000+ sellers across India.",
   keywords: [
@@ -24,28 +24,28 @@ export const metadata: Metadata = {
     "quick cash for electronics Bengaluru",
   ],
   openGraph: {
-    title: "Sell Old Laptop & Desktop for Instant Cash | Laptap Bengaluru",
+    title: "Sell Old Laptop & Desktop for Instant Cash | Hulumart Bengaluru",
     description:
       "Get the best price for your used electronics. Free pickup, instant evaluation, and payment within 24 hours. Bengaluru's most trusted platform for selling laptops.",
     type: "website",
-    url: "https://www.laptap.in",
-    images: [{ url: "/og-image.jpg" }],
+    url: "https://www.hulumart.com",
+    images: [{ url: "/assets/hulumart-logo.png", width: 640, height: 121, alt: "Hulumart" }],
     locale: "en_IN",
-    siteName: "Laptap",
+    siteName: "Hulumart",
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Sell Old Laptop & Desktop for Instant Cash | Laptap",
+    card: "summary",
+    title: "Sell Old Laptop & Desktop for Instant Cash | Hulumart",
     description:
       "Bengaluru's trusted platform for selling used electronics. Best prices, free pickup, instant payment.",
-    images: ["/twitter-image.jpg"],
+    images: ["/assets/hulumart-logo.png"],
   },
   alternates: {
-    canonical: "https://www.laptap.in",
+    canonical: "https://www.hulumart.com",
     languages: {
-      "en-IN": "https://www.laptap.in",
-      en: "https://www.laptap.in",
-      "x-default": "https://www.laptap.in",
+      "en-IN": "https://www.hulumart.com",
+      en: "https://www.hulumart.com",
+      "x-default": "https://www.hulumart.com",
     },
   },
 };
@@ -59,11 +59,11 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            name: "Laptap",
-            url: "https://www.laptap.in",
+            name: "Hulumart",
+            url: "https://www.hulumart.com",
             potentialAction: {
               "@type": "SearchAction",
-              target: "https://www.laptap.in/sell?q={search_term_string}",
+              target: "https://www.hulumart.com/sell?q={search_term_string}",
               "query-input": "required name=search_term_string",
             },
           }),
@@ -75,10 +75,10 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            name: "Laptap",
+            name: "Hulumart",
             description:
               "Bengaluru's most trusted platform for selling used laptops and desktop computers with instant cash payment",
-            url: "https://www.laptap.in",
+            url: "https://www.hulumart.com",
             telephone: "+919886579923",
             priceRange: "₹₹",
             address: {
@@ -141,7 +141,7 @@ export default function HomePage() {
             mainEntity: [
               {
                 "@type": "Question",
-                name: "How do I sell my laptop to Laptap?",
+                name: "How do I sell my laptop to Hulumart?",
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: "Simply select your device, get an instant quote, schedule a pickup, and receive instant payment after verification. Our technicians will come to your doorstep for free pickup.",

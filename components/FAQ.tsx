@@ -17,11 +17,11 @@ const FAQ = ({ location }: FAQProps) => {
   const faqs = [
     {
       question: `How do I sell my old laptop in ${locationText}?`,
-      answer: `Selling your old laptop in ${locationText} is simple with Laptap. First, get an instant quote by selecting your laptop brand and model on our website. Then schedule a free doorstep pickup at your convenience. Our verified technicians will visit your location, inspect the device, and provide instant payment via UPI, bank transfer, or cash.`,
+      answer: `Selling your old laptop in ${locationText} is simple with Hulumart. First, get an instant quote by selecting your laptop brand and model on our website. Then schedule a free doorstep pickup at your convenience. Our verified technicians will visit your location, inspect the device, and provide instant payment via UPI, bank transfer, or cash.`,
     },
     {
       question: `What is the best price for my used laptop in ${locationText}?`,
-      answer: `Laptap offers the most competitive prices for used laptops in ${locationText}. The price depends on your laptop's brand, model, specifications, age, and physical condition. Our advanced pricing algorithm ensures you get up to 30% more than other buyers.`,
+      answer: `Hulumart offers the most competitive prices for used laptops in ${locationText}. The price depends on your laptop's brand, model, specifications, age, and physical condition. Our advanced pricing algorithm ensures you get up to 30% more than other buyers.`,
     },
     {
       question: `Which laptop brands do you buy in ${locationText}?`,

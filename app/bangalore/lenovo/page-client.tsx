@@ -60,19 +60,19 @@ export const PageClient = () => {
                   </h2>
                   <div className="prose prose-slate">
                     <p className="text-muted-foreground mb-4">
-                      Planning to sell your Lenovo laptop in Bangalore? Laptap offers the best prices for all Lenovo models including ThinkPad (T-series, X-series, P-series), IdeaPad, Yoga 2-in-1 convertibles, and Legion gaming laptops. Whether you have a business-grade ThinkPad with Intel Core or AMD Ryzen processor, or a gaming-focused Legion with RTX graphics, we ensure fair market pricing.
+                      Planning to sell your Lenovo laptop in Bangalore? Hulumart offers the best prices for all Lenovo models including ThinkPad (T-series, X-series, P-series), IdeaPad, Yoga 2-in-1 convertibles, and Legion gaming laptops. Whether you have a business-grade ThinkPad with Intel Core or AMD Ryzen processor, or a gaming-focused Legion with RTX graphics, we ensure fair market pricing.
                     </p>
                     <p className="text-muted-foreground mb-4">
                       We serve all major areas across Bangalore - Koramangala, Indiranagar, Whitefield, Electronic City, HSR Layout, Marathahalli, BTM Layout, Bellandur, and more. Our service includes free same-day doorstep pickup, professional device assessment, secure data deletion, and immediate payment via UPI, bank transfer, or cash.
                     </p>
                     <p className="text-muted-foreground">
-                      With thousands of happy customers in Bangalore, Laptap is your trusted partner for selling Lenovo laptops. Get instant online valuation, schedule convenient pickup, and receive payment the same day. No hassle, no hidden costs - just honest service.
+                      With thousands of happy customers in Bangalore, Hulumart is your trusted partner for selling Lenovo laptops. Get instant online valuation, schedule convenient pickup, and receive payment the same day. No hassle, no hidden costs - just honest service.
                     </p>
                   </div>
                 </div>
                 <div>
                   <h2 className="text-3xl font-bold mb-6">
-                    Why Choose Laptap for Lenovo Laptop Sale in Bangalore?
+                    Why Choose Hulumart for Lenovo Laptop Sale in Bangalore?
                   </h2>
                   <div className="space-y-4">
                     <div className="p-4 bg-card rounded-lg border">

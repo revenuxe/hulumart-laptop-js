@@ -19,7 +19,7 @@ const WhatsAppFloat = () => {
   };
 
   return (
-    <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40">
+    <div className="fixed bottom-6 right-6 z-40 hidden md:block">
       <div className="relative">
         {showPopup && (
           <div className="absolute bottom-14 sm:bottom-16 right-0 bg-card rounded-xl shadow-xl p-3 sm:p-4 mb-2 w-40 sm:w-48 animate-in slide-in-from-bottom-2 border">

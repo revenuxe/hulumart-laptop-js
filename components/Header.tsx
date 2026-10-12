@@ -10,8 +10,8 @@ const Header = () => {
   const closeMenu = () => setMobileMenuOpen(false);
 
   return <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-    <div className="container flex h-14 items-center justify-between sm:h-16 md:h-20">
-      <Link href="/" className="flex items-center space-x-2" aria-label="Laptap home"><img src="/assets/laptop_logo.webp" alt="Laptap" className="h-10 sm:h-12 md:h-14" /></Link>
+    <div className="container flex h-14 items-center justify-between px-4 sm:h-16 sm:px-5 md:h-20 md:px-8">
+      <Link href="/" className="flex items-center space-x-2" aria-label="Hulumart home"><img src="/assets/hulumart-logo.avif" alt="Hulumart" className="h-auto w-40 object-contain sm:w-48 md:w-56 dark:rounded-lg dark:bg-white dark:p-2" /></Link>
       <nav className="hidden items-center space-x-8 md:flex"><Link href="/" className="text-sm font-medium transition-colors hover:text-primary">Home</Link><Link href="/sell/laptop" className="text-sm font-medium transition-colors hover:text-primary">Sell Device</Link><Link href="/repair" className="text-sm font-medium transition-colors hover:text-primary">Repair</Link><Link href="/about" className="text-sm font-medium transition-colors hover:text-primary">About</Link><Link href="/blog" className="text-sm font-medium transition-colors hover:text-primary">Blog</Link></nav>
       <div className="flex items-center gap-2"><Button variant="cta" size="sm" asChild className="hidden sm:inline-flex"><Link href="/sell/laptop">Sell Now</Link></Button><button className="rounded-lg p-1.5 transition-colors hover:bg-muted md:hidden" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} aria-label="Toggle navigation">{mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}</button></div>
     </div>

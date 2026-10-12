@@ -6,14 +6,15 @@ import Script from "next/script";
 import { Suspense } from "react";
 import PageLoader from "@/components/PageLoader";
 import ScrollToTop from "@/components/ScrollToTop";
+import MobileBottomNav from "@/components/MobileBottomNav";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.laptap.in"),
+  metadataBase: new URL("https://www.hulumart.com"),
   title: {
-    default: "Sell Used Laptop and Desktop in Bangalore | Same-Day Cash – Laptap",
-    template: "%s | Laptap",
+    default: "Sell Used Laptop and Desktop in Bangalore | Same-Day Cash – Hulumart",
+    template: "%s | Hulumart",
   },
   description:
     "Sell used laptop & desktop in Bangalore at the best price. Instant quote, same-day pickup, quick cash, and 500+ happy customers. Trusted, safe & hassle-free",
@@ -29,23 +30,23 @@ export const metadata: Metadata = {
     "hbr layout",
     "nagawara",
   ],
-  authors: [{ name: "Laptap" }],
+  authors: [{ name: "Hulumart" }],
   openGraph: {
     type: "website",
-    url: "https://www.laptap.in/",
-    title: "Sell Used Laptop and Desktop in Bangalore | Same-Day Cash – Laptap",
+    url: "https://www.hulumart.com/",
+    title: "Sell Used Laptop and Desktop in Bangalore | Same-Day Cash – Hulumart",
     description:
       "Sell used laptop & desktop in Bangalore at the best price. Instant quote, same-day pickup, quick cash, and 500+ happy customers.",
-    siteName: "Laptap",
+    siteName: "Hulumart",
     locale: "en_IN",
-    images: [{ url: "/og-image.webp", width: 1200, height: 630 }],
+    images: [{ url: "/assets/hulumart-logo.png", width: 640, height: 121, alt: "Hulumart — Buy it. Sell it. Repeat it." }],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Sell Used Laptop and Desktop in Bangalore | Same-Day Cash – Laptap",
+    card: "summary",
+    title: "Sell Used Laptop and Desktop in Bangalore | Same-Day Cash – Hulumart",
     description:
       "Sell used laptop & desktop in Bangalore at the best price. Instant quote, same-day pickup, quick cash, and 500+ happy customers.",
-    images: ["/og-image.webp"],
+    images: ["/assets/hulumart-logo.png"],
   },
   robots: {
     index: true,
@@ -56,10 +57,11 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.laptap.in",
+    canonical: "https://www.hulumart.com",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: { url: "/favicon.ico?v=hulumart", type: "image/x-icon" },
+    apple: "/assets/hulumart-icon.png",
   },
 };
 
@@ -77,9 +79,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Laptap",
-              url: "https://www.laptap.in",
-              logo: "https://www.laptap.in/logo.png",
+              name: "Hulumart",
+              url: "https://www.hulumart.com",
+              logo: "https://www.hulumart.com/assets/hulumart-logo.png",
               description: "India's most trusted platform for selling used laptops and desktops",
               telephone: "+919886579923",
               address: {
@@ -93,7 +95,7 @@ export default function RootLayout({
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+919886579923",
-                email: "laptap.in@gmail.com",
+                email: "hulumart.com@gmail.com",
                 contactType: "Customer Service",
                 areaServed: "IN",
                 availableLanguage: ["English", "Hindi"],
@@ -108,8 +110,8 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              name: "Laptap",
-              image: "https://www.laptap.in/logo.png",
+              name: "Hulumart",
+              image: "https://www.hulumart.com/assets/hulumart-logo.png",
               telephone: "+919886579923",
               priceRange: "₹₹",
               address: {
@@ -125,8 +127,8 @@ export default function RootLayout({
                 latitude: "13.0358",
                 longitude: "77.6431",
               },
-              url: "https://www.laptap.in",
-              email: "laptap.in@gmail.com",
+              url: "https://www.hulumart.com",
+              email: "hulumart.com@gmail.com",
               openingHoursSpecification: [
                 {
                   "@type": "OpeningHoursSpecification",
@@ -161,8 +163,10 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <PageLoader />
         </Suspense>
-        <ScrollToTop />
-        <Providers>{children}</Providers>
+        <Suspense fallback={null}>
+          <ScrollToTop />
+        </Suspense>
+        <Providers>{children}<MobileBottomNav /></Providers>
       </body>
     </html>
   );

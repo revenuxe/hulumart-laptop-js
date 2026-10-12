@@ -102,12 +102,12 @@ export const PageClient = () => {
           <section className="py-16 md:py-24 bg-muted/30">
             <div className="container max-w-4xl">
               <h2 className="text-3xl md:text-4xl font-bold mb-8">
-                Why Sell Your Samsung Laptop Online with Laptap?
+                Why Sell Your Samsung Laptop Online with Hulumart?
               </h2>
               
               <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
                 <p>
-                  Looking to sell your used Samsung laptop? Laptap offers India's most trusted platform for selling Samsung laptops online with instant cash payment. Whether you own a Samsung Galaxy Book 3 Ultra, Galaxy Book Pro 360, or an older Notebook series, we guarantee the best resale value.
+                  Looking to sell your used Samsung laptop? Hulumart offers India's most trusted platform for selling Samsung laptops online with instant cash payment. Whether you own a Samsung Galaxy Book 3 Ultra, Galaxy Book Pro 360, or an older Notebook series, we guarantee the best resale value.
                 </p>
 
                 <h3 className="text-2xl font-bold text-foreground mt-8">Best Price for Samsung Laptops in India</h3>

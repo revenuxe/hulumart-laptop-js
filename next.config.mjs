@@ -1,27 +1,26 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  distDir: process.env.NEXT_BUILD_DIR || ".next",
   images: {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "ziuuektwmuwqdeiafnkz.supabase.co",
+        hostname: "snnnurtjzdkjweoewrwf.supabase.co",
       },
       {
         protocol: "https",
-        hostname: "www.laptap.in",
+        hostname: "www.hulumart.com",
       },
     ],
   },
   async redirects() {
-    return [
-      {
+    return ["laptap.in", "www.laptap.in", "hulumart.com"].map(host => ({
         source: "/:path*",
-        has: [{ type: "host", value: "laptap.in" }],
-        destination: "https://www.laptap.in/:path*",
+        has: [{ type: "host", value: host }],
+        destination: "https://www.hulumart.com/:path*",
         permanent: true,
-      },
-    ];
+      }));
   },
 };
 

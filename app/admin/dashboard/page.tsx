@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { PageClient } from "./page-client";
 
 export const metadata: Metadata = {
-  title: "Admin Dashboard - Laptap",
-  description: "Laptap admin dashboard.",
-  alternates: { canonical: "https://www.laptap.in/admin/dashboard" },
+  title: "Admin Dashboard - Hulumart",
+  description: "Hulumart admin dashboard.",
+  alternates: { canonical: "https://www.hulumart.com/admin/dashboard" },
 };
 
 export default function Page() {

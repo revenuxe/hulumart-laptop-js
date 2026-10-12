@@ -16,7 +16,7 @@ const Features = () => {
     <section className="py-10 sm:py-16 bg-accent/20">
       <div className="container">
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">Why Choose Laptap?</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">Why Choose Hulumart?</h2>
           <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto">
             Experience the easiest and most secure way to sell your old laptops and desktops
           </p>

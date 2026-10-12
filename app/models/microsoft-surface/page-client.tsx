@@ -102,12 +102,12 @@ export const PageClient = () => {
           <section className="py-16 md:py-24 bg-muted/30">
             <div className="container max-w-4xl">
               <h2 className="text-3xl md:text-4xl font-bold mb-8">
-                Why Sell Your Microsoft Surface Online with Laptap?
+                Why Sell Your Microsoft Surface Online with Hulumart?
               </h2>
               
               <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
                 <p>
-                  Looking to sell your used Microsoft Surface? Laptap offers India's most trusted platform for selling Microsoft Surface devices online with instant cash payment. Whether you own a Surface Pro 9, Surface Laptop 5, Surface Book 3, or a Surface Go, we guarantee the best resale value.
+                  Looking to sell your used Microsoft Surface? Hulumart offers India's most trusted platform for selling Microsoft Surface devices online with instant cash payment. Whether you own a Surface Pro 9, Surface Laptop 5, Surface Book 3, or a Surface Go, we guarantee the best resale value.
                 </p>
 
                 <h3 className="text-2xl font-bold text-foreground mt-8">Best Price for Microsoft Surface in India</h3>

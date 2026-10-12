@@ -51,14 +51,14 @@ export const PageClient = () => {
                 <div className="prose prose-slate">
                   <h2 className="text-3xl font-bold mb-6">Sell HP Pavilion - Popular Consumer Laptops</h2>
                   <p className="text-muted-foreground mb-4">
-                    Sell your HP Pavilion laptop for the best market price at Laptap. We buy all HP Pavilion models including Pavilion 14, Pavilion 15, Pavilion 16, Pavilion x360 2-in-1 convertibles, and Pavilion Gaming series. Whether you have a recent 13th Gen Intel model or an older configuration, we offer competitive pricing.
+                    Sell your HP Pavilion laptop for the best market price at Hulumart. We buy all HP Pavilion models including Pavilion 14, Pavilion 15, Pavilion 16, Pavilion x360 2-in-1 convertibles, and Pavilion Gaming series. Whether you have a recent 13th Gen Intel model or an older configuration, we offer competitive pricing.
                   </p>
                   <p className="text-muted-foreground">
                     HP Pavilion laptops are known for their balanced performance, stylish designs, and affordability. We accept all specifications - Intel Core i3, i5, i7, AMD Ryzen processors, touchscreen variants, and gaming models with dedicated NVIDIA/AMD graphics. Free doorstep pickup across India with instant payment.
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold mb-4">Why Choose Laptap for HP Pavilion?</h3>
+                  <h3 className="text-2xl font-bold mb-4">Why Choose Hulumart for HP Pavilion?</h3>
                   <div className="p-4 bg-card rounded-lg border">
                     <h4 className="font-bold mb-2">Premium Valuations</h4>
                     <p className="text-sm text-muted-foreground">Get top resale value for your HP Pavilion laptop</p>

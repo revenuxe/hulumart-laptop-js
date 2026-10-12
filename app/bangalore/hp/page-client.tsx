@@ -60,19 +60,19 @@ export const PageClient = () => {
                   </h2>
                   <div className="prose prose-slate">
                     <p className="text-muted-foreground mb-4">
-                      Want to sell your HP laptop in Bangalore? Laptap provides the best prices for all HP models including Pavilion, Envy premium laptops, Omen gaming series, business-focused EliteBook and ProBook, and HP Spectre ultrabooks. Whether you own an HP laptop with AMD Ryzen, Intel Core processors, or dedicated NVIDIA/AMD graphics, we offer competitive valuations based on current market rates.
+                      Want to sell your HP laptop in Bangalore? Hulumart provides the best prices for all HP models including Pavilion, Envy premium laptops, Omen gaming series, business-focused EliteBook and ProBook, and HP Spectre ultrabooks. Whether you own an HP laptop with AMD Ryzen, Intel Core processors, or dedicated NVIDIA/AMD graphics, we offer competitive valuations based on current market rates.
                     </p>
                     <p className="text-muted-foreground mb-4">
                       We cover all major neighborhoods in Bangalore - Koramangala, Indiranagar, Whitefield, Electronic City, HSR Layout, Marathahalli, BTM Layout, Jayanagar, JP Nagar, and more. Our services include free same-day doorstep pickup, thorough device inspection, professional data wiping, and instant payment through UPI, bank transfer, or cash.
                     </p>
                     <p className="text-muted-foreground">
-                      Trusted by thousands in Bangalore, Laptap makes selling HP laptops simple and secure. Get your instant online quote, book pickup at your preferred time, and receive payment within hours. No hidden charges, no complicated process - just straightforward service.
+                      Trusted by thousands in Bangalore, Hulumart makes selling HP laptops simple and secure. Get your instant online quote, book pickup at your preferred time, and receive payment within hours. No hidden charges, no complicated process - just straightforward service.
                     </p>
                   </div>
                 </div>
                 <div>
                   <h2 className="text-3xl font-bold mb-6">
-                    Why Sell HP Laptop with Laptap in Bangalore?
+                    Why Sell HP Laptop with Hulumart in Bangalore?
                   </h2>
                   <div className="space-y-4">
                     <div className="p-4 bg-card rounded-lg border">

@@ -100,10 +100,8 @@ export const PageClient = () => {
     setLoading(true);
 
     try {
-      const { data, error } = await supabase
-        .from('repair_requests')
-        .insert([{
-          user_id: null,
+      const { data, error } = await (supabase as any)
+        .rpc('create_repair_booking', { details: {
           brand_id: brandId,
           model_name: values.model,
           customer_name: values.name,
@@ -113,15 +111,12 @@ export const PageClient = () => {
           issue_subcategory: values.issueSubcategory || null,
           issue_details: values.issueDetails || null,
           preferred_date: values.preferredDate?.toISOString() || null,
-          status: 'pending',
-        }] as any)
-        .select()
-        .single();
+        } });
 
       if (error) throw error;
 
       toast.success('Repair request submitted successfully!');
-      router.push(`/repair/thank-you?orderNumber=${data.order_number}`);
+      router.push(`/repair/thank-you?orderNumber=${encodeURIComponent(data)}`);
     } catch (error) {
       console.error('Error submitting repair request:', error);
       toast.error('Failed to submit repair request');

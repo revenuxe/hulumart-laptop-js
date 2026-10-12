@@ -79,7 +79,7 @@ export const PageClient = () => {
                   </h2>
                   <div className="prose prose-slate">
                     <p className="text-muted-foreground mb-4">
-                      Looking to sell your ASUS ROG gaming laptop? Laptap specializes in buying high-end gaming laptops and offers the most competitive prices for all ROG models including Zephyrus G14, G15, G16, Strix G15, G17, SCAR 15, 17, and Flow Z13, X13 convertibles.
+                      Looking to sell your ASUS ROG gaming laptop? Hulumart specializes in buying high-end gaming laptops and offers the most competitive prices for all ROG models including Zephyrus G14, G15, G16, Strix G15, G17, SCAR 15, 17, and Flow Z13, X13 convertibles.
                     </p>
                     <p className="text-muted-foreground mb-4">
                       Gaming laptops depreciate differently than regular laptops - the GPU and display specs matter most. Whether you have an RTX 4090 beast or an older GTX model, we understand gaming hardware and provide fair valuations that beat local dealers.
@@ -91,7 +91,7 @@ export const PageClient = () => {
                 </div>
                 <div>
                   <h2 className="text-3xl font-bold mb-6">
-                    Why Gamers Choose Laptap for ROG Resale
+                    Why Gamers Choose Hulumart for ROG Resale
                   </h2>
                   <div className="space-y-4">
                     <div className="p-4 bg-card rounded-lg border flex gap-4">

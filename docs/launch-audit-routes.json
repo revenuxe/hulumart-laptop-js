@@ -1,0 +1,606 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "title": "Sell Old Laptop &amp; Desktop Online in Bengaluru | Instant Cash Payment | Hulumart",
+    "canonical": "https://www.hulumart.com",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your Laptop or Desktop Instantly"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 83880
+  },
+  {
+    "route": "/about",
+    "status": 200,
+    "title": "About Us - Hulumart | India&#x27;s Trusted Platform for Selling Used Laptops | Hulumart",
+    "canonical": "https://www.hulumart.com/about",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "About Hulumart"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 36798
+  },
+  {
+    "route": "/admin",
+    "status": 200,
+    "title": "Admin Login - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/admin",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 20299
+  },
+  {
+    "route": "/admin/dashboard",
+    "status": 200,
+    "title": "Admin Dashboard - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/admin/dashboard",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 26804
+  },
+  {
+    "route": "/bangalore",
+    "status": 200,
+    "title": "Sell Used Laptop in Bangalore | Best Prices, Free Pickup - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/bangalore",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Used Laptop in Bangalore for Instant Cash"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 97851
+  },
+  {
+    "route": "/bangalore/dell",
+    "status": 200,
+    "title": "Sell Dell Laptop in Bangalore | Best Price - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/bangalore/dell",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Used Dell Laptop in Bangalore for Instant Cash"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 39257
+  },
+  {
+    "route": "/bangalore/hp",
+    "status": 200,
+    "title": "Sell HP Laptop in Bangalore | Best Price - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/bangalore/hp",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Used HP Laptop in Bangalore for Top Price"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 39239
+  },
+  {
+    "route": "/bangalore/lenovo",
+    "status": 200,
+    "title": "Sell Lenovo Laptop in Bangalore | Best Price - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/bangalore/lenovo",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Used Lenovo Laptop in Bangalore for Best Price"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 39294
+  },
+  {
+    "route": "/bangalore/macbook",
+    "status": 200,
+    "title": "Sell MacBook in Bangalore | Best Price for Used MacBook - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/bangalore/macbook",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Used MacBook in Bangalore for Instant Cash"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 51531
+  },
+  {
+    "route": "/blog",
+    "status": 200,
+    "title": "Hulumart Blog - Laptop Buying Guides, Selling Tips &amp; Tech Insights | Hulumart",
+    "canonical": "https://www.hulumart.com/blog",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Make your next laptop decision a good one."
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 56090
+  },
+  {
+    "route": "/blog/sell-used-laptop-bangalore",
+    "status": 200,
+    "title": "Sell Your Used Laptop in Bangalore: A Guide | Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/blog/sell-used-laptop-bangalore",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "How to sell your used laptop in Bangalore, step by step"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 73598
+  },
+  {
+    "route": "/contact",
+    "status": 200,
+    "title": "Contact Us - Hulumart | Get in Touch for Selling Your Laptop | Hulumart",
+    "canonical": "https://www.hulumart.com/contact",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Get in Touch"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 36638
+  },
+  {
+    "route": "/dashboard",
+    "status": 200,
+    "title": "Sell Used Laptop and Desktop in Bangalore | Same-Day Cash – Hulumart",
+    "canonical": "https://www.hulumart.com",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 22091
+  },
+  {
+    "route": "/gaming/acer-predator",
+    "status": 200,
+    "title": "Sell Acer Predator Gaming Laptop | Best Price - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/gaming/acer-predator",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Acer Predator Gaming Laptop for Maximum Cash"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 41932
+  },
+  {
+    "route": "/gaming/asus-rog",
+    "status": 200,
+    "title": "Sell ASUS ROG Gaming Laptop | Best Price - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/gaming/asus-rog",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell ASUS ROG Gaming Laptop for Maximum Cash"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 41878
+  },
+  {
+    "route": "/hyderabad",
+    "status": 404,
+    "title": "Sell Used Laptop and Desktop in Bangalore | Same-Day Cash – Hulumart",
+    "canonical": "https://www.hulumart.com",
+    "robots": "noindex",
+    "googlebot": "index, follow",
+    "h1": [
+      "Page Not Found"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 22913
+  },
+  {
+    "route": "/hyderabad/dell",
+    "status": 404,
+    "title": "Sell Used Laptop and Desktop in Bangalore | Same-Day Cash – Hulumart",
+    "canonical": "https://www.hulumart.com",
+    "robots": "noindex",
+    "googlebot": "index, follow",
+    "h1": [
+      "Page Not Found"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 22922
+  },
+  {
+    "route": "/hyderabad/hp",
+    "status": 404,
+    "title": "Sell Used Laptop and Desktop in Bangalore | Same-Day Cash – Hulumart",
+    "canonical": "https://www.hulumart.com",
+    "robots": "noindex",
+    "googlebot": "index, follow",
+    "h1": [
+      "Page Not Found"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 22920
+  },
+  {
+    "route": "/hyderabad/lenovo",
+    "status": 404,
+    "title": "Sell Used Laptop and Desktop in Bangalore | Same-Day Cash – Hulumart",
+    "canonical": "https://www.hulumart.com",
+    "robots": "noindex",
+    "googlebot": "index, follow",
+    "h1": [
+      "Page Not Found"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 22924
+  },
+  {
+    "route": "/hyderabad/macbook",
+    "status": 404,
+    "title": "Sell Used Laptop and Desktop in Bangalore | Same-Day Cash – Hulumart",
+    "canonical": "https://www.hulumart.com",
+    "robots": "noindex",
+    "googlebot": "index, follow",
+    "h1": [
+      "Page Not Found"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 22925
+  },
+  {
+    "route": "/models/acer-laptop",
+    "status": 200,
+    "title": "Sell Acer Laptop | Best Price for Used Acer Laptop - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/acer-laptop",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your Acer Laptop for Instant Cash"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 55015
+  },
+  {
+    "route": "/models/asus-laptop",
+    "status": 200,
+    "title": "Sell ASUS Laptop | Best Price for Used ASUS Laptop - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/asus-laptop",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your Asus Laptop for Best Price"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 55144
+  },
+  {
+    "route": "/models/dell-optiplex",
+    "status": 200,
+    "title": "Sell Dell OptiPlex | Best Price for Used Dell Desktop - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/dell-optiplex",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your Dell Optiplex Desktop for Best Price"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 32418
+  },
+  {
+    "route": "/models/dell-xps",
+    "status": 200,
+    "title": "Sell Dell XPS | Best Price for Used Dell XPS - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/dell-xps",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your Dell XPS Laptop for Best Price"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 38970
+  },
+  {
+    "route": "/models/hp-desktop",
+    "status": 200,
+    "title": "Sell HP Desktop | Best Price for Used HP Desktop - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/hp-desktop",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your HP Desktop Computer for Best Price"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 32377
+  },
+  {
+    "route": "/models/hp-pavilion",
+    "status": 200,
+    "title": "Sell HP Pavilion | Best Price for Used HP Pavilion - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/hp-pavilion",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your HP Pavilion Laptop for Best Price"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 37753
+  },
+  {
+    "route": "/models/imac",
+    "status": 200,
+    "title": "Sell iMac | Best Price for Used iMac - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/imac",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your iMac Desktop for Best Price"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 33076
+  },
+  {
+    "route": "/models/lenovo-desktop",
+    "status": 200,
+    "title": "Sell Lenovo Desktop | Best Price for Used Lenovo Desktop - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/lenovo-desktop",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your Lenovo Desktop Computer for Best Price"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 32437
+  },
+  {
+    "route": "/models/lenovo-thinkpad",
+    "status": 200,
+    "title": "Sell Lenovo ThinkPad | Best Price for Used ThinkPad - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/lenovo-thinkpad",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your ThinkPad Laptop for Best Price"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 37844
+  },
+  {
+    "route": "/models/macbook-air",
+    "status": 200,
+    "title": "Sell MacBook Air | Best Price for Used MacBook Air - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/macbook-air",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your MacBook Air for Instant Cash"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 54448
+  },
+  {
+    "route": "/models/macbook-pro",
+    "status": 200,
+    "title": "Sell MacBook Pro | Best Price for Used MacBook Pro - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/macbook-pro",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your MacBook Pro for Instant Cash"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 55292
+  },
+  {
+    "route": "/models/microsoft-surface",
+    "status": 200,
+    "title": "Sell Microsoft Surface | Best Price for Used Surface - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/microsoft-surface",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your Microsoft Surface for Best Price"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 55090
+  },
+  {
+    "route": "/models/samsung-laptop",
+    "status": 200,
+    "title": "Sell Samsung Laptop | Best Price for Used Samsung Laptop - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/models/samsung-laptop",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell Your Samsung Laptop for Top Price"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 55072
+  },
+  {
+    "route": "/privacy",
+    "status": 200,
+    "title": "Privacy Policy - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/privacy",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Privacy Policy"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 36836
+  },
+  {
+    "route": "/repair",
+    "status": 200,
+    "title": "Laptop &amp; Desktop Repair Services - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/repair",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "What Device Needs Repair?"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 32469
+  },
+  {
+    "route": "/repair/form",
+    "status": 200,
+    "title": "Book Repair Service - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/repair/form",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 23406
+  },
+  {
+    "route": "/repair/thank-you",
+    "status": 200,
+    "title": "Repair Request Submitted - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/repair/thank-you",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 22584
+  },
+  {
+    "route": "/sell",
+    "status": 200,
+    "title": "Sell Used Laptop Online | Instant Quote &amp; Cash Payment - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/sell/laptop",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell your device"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 31447
+  },
+  {
+    "route": "/sell/desktop",
+    "status": 200,
+    "title": "Sell Used Desktop Online | Instant Quote &amp; Cash Payment - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/sell/desktop",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell your device"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 34996
+  },
+  {
+    "route": "/sell/laptop",
+    "status": 200,
+    "title": "Sell Used Laptop Online | Instant Quote &amp; Cash Payment - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/sell/laptop",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell your device"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 34971
+  },
+  {
+    "route": "/sell/laptop/not-a-real-brand",
+    "status": 200,
+    "title": "Sell Used NOT-A-REAL-BRAND Laptops | Best Buyback Price - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/sell/laptop/not-a-real-brand",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell your device"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 30746
+  },
+  {
+    "route": "/sell/mobile",
+    "status": 200,
+    "title": "Sell Used Laptop Online | Instant Quote &amp; Cash Payment - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/sell/mobile",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Sell your device"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 31476
+  },
+  {
+    "route": "/terms",
+    "status": 200,
+    "title": "Terms of Service - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com/terms",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [
+      "Terms &amp; Conditions"
+    ],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 35107
+  },
+  {
+    "route": "/track/test",
+    "status": 200,
+    "title": "Track Your Order - Hulumart | Hulumart",
+    "canonical": "https://www.hulumart.com",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "h1": [],
+    "hasDescription": true,
+    "hasPlaceholderAnalytics": true,
+    "jsBytes": 30244
+  }
+]

@@ -14,9 +14,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const modelSlug = urlSegments[3];
 
   const categoryName = category === "desktop" ? "Desktop" : "Laptop";
-  let title = `Sell Used ${categoryName} Online | Instant Quote & Cash Payment - Laptap`;
-  let description = `Get the best price for your used ${categoryName.toLowerCase()} on Laptap. Free doorstep pickup, instant evaluation, and immediate payment in Bangalore.`;
-  let canonicalUrl = `https://www.laptap.in/sell/${category}`;
+  let title = `Sell Used ${categoryName} Online | Instant Quote & Cash Payment - Hulumart`;
+  let description = `Get the best price for your used ${categoryName.toLowerCase()} on Hulumart. Free doorstep pickup, instant evaluation, and immediate payment in Bangalore.`;
+  let canonicalUrl = `https://www.hulumart.com/sell/${category}`;
 
   if (brandSlug) {
     const supabase = createServerSupabaseClient();
@@ -27,9 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       .maybeSingle();
 
     const brandName = brand?.name || brandSlug.toUpperCase();
-    title = `Sell Used ${brandName} ${categoryName}s | Best Buyback Price - Laptap`;
-    description = `Sell your old ${brandName} ${categoryName.toLowerCase()} for instant cash. Free doorstep pickup and instant payment guaranteed on Laptap.`;
-    canonicalUrl = `https://www.laptap.in/sell/${category}/${brandSlug}`;
+    title = `Sell Used ${brandName} ${categoryName}s | Best Buyback Price - Hulumart`;
+    description = `Sell your old ${brandName} ${categoryName.toLowerCase()} for instant cash. Free doorstep pickup and instant payment guaranteed on Hulumart.`;
+    canonicalUrl = `https://www.hulumart.com/sell/${category}/${brandSlug}`;
 
     if (seriesSlug) {
       const { data: series } = await supabase
@@ -39,9 +39,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         .maybeSingle();
 
       const seriesName = series?.name || seriesSlug;
-      title = `Sell Used ${brandName} ${seriesName} ${categoryName} | Instant Quote - Laptap`;
+      title = `Sell Used ${brandName} ${seriesName} ${categoryName} | Instant Quote - Hulumart`;
       description = `Get instant price valuation for your used ${brandName} ${seriesName} ${categoryName.toLowerCase()}. Safe data wipe, free pickup & quick payment.`;
-      canonicalUrl = `https://www.laptap.in/sell/${category}/${brandSlug}/${seriesSlug}`;
+      canonicalUrl = `https://www.hulumart.com/sell/${category}/${brandSlug}/${seriesSlug}`;
 
       if (modelSlug) {
         const { data: model } = await supabase
@@ -51,9 +51,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           .maybeSingle();
 
         const modelName = model?.name || modelSlug;
-        title = `Sell ${modelName} ${categoryName} | Best Resale Value - Laptap`;
+        title = `Sell ${modelName} ${categoryName} | Best Resale Value - Hulumart`;
         description = `Sell your ${modelName} ${categoryName.toLowerCase()} at the top market price. Free doorstep pickup and instant payment across Bangalore & India.`;
-        canonicalUrl = `https://www.laptap.in/sell/${category}/${brandSlug}/${seriesSlug}/${modelSlug}`;
+        canonicalUrl = `https://www.hulumart.com/sell/${category}/${brandSlug}/${seriesSlug}/${modelSlug}`;
       }
     }
   }
@@ -75,7 +75,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       url: canonicalUrl,
       type: "website",
-      siteName: "Laptap",
+      siteName: "Hulumart",
       locale: "en_IN",
     },
     twitter: {

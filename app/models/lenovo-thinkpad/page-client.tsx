@@ -51,14 +51,14 @@ export const PageClient = () => {
                 <div className="prose prose-slate">
                   <h2 className="text-3xl font-bold mb-6">Sell Lenovo ThinkPad - Premium Business Laptops</h2>
                   <p className="text-muted-foreground mb-4">
-                    Looking to sell your Lenovo ThinkPad? Laptap offers the best resale value for all ThinkPad models including X1 Carbon, T-series, E-series, L-series, and P-series workstations. Whether you own a latest ThinkPad X1 Carbon Gen 11 or an older T480, we provide competitive pricing based on current market rates.
+                    Looking to sell your Lenovo ThinkPad? Hulumart offers the best resale value for all ThinkPad models including X1 Carbon, T-series, E-series, L-series, and P-series workstations. Whether you own a latest ThinkPad X1 Carbon Gen 11 or an older T480, we provide competitive pricing based on current market rates.
                   </p>
                   <p className="text-muted-foreground">
                     ThinkPad laptops are renowned for their durability, business-grade features, and excellent resale value. We buy all configurations - Intel Core i5, i7, i9, AMD Ryzen processors, touchscreen models, 2-in-1 convertibles, and workstation-grade P-series. Get instant quote, free doorstep pickup across India, and immediate payment.
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold mb-4">Why Sell ThinkPad with Laptap?</h3>
+                  <h3 className="text-2xl font-bold mb-4">Why Sell ThinkPad with Hulumart?</h3>
                   <div className="p-4 bg-card rounded-lg border">
                     <h4 className="font-bold mb-2">Best Market Prices</h4>
                     <p className="text-sm text-muted-foreground">Get 15-20% more than other buyers for ThinkPad models</p>

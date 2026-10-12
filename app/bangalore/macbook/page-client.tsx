@@ -76,19 +76,19 @@ export const PageClient = () => {
                   </h2>
                   <div className="prose prose-slate">
                     <p className="text-muted-foreground mb-4">
-                      Looking to sell your MacBook in Bangalore? Laptap offers the best resale value for all MacBook models including MacBook Pro and MacBook Air with M3, M2, M1, and Intel processors. Whether you have the latest MacBook Pro 16-inch M3 Max or an older MacBook Air, we provide competitive pricing and instant cash payment.
+                      Looking to sell your MacBook in Bangalore? Hulumart offers the best resale value for all MacBook models including MacBook Pro and MacBook Air with M3, M2, M1, and Intel processors. Whether you have the latest MacBook Pro 16-inch M3 Max or an older MacBook Air, we provide competitive pricing and instant cash payment.
                     </p>
                     <p className="text-muted-foreground mb-4">
                       Our service covers all major areas in Bangalore including Koramangala, Indiranagar, Whitefield, Electronic City, HSR Layout, and Marathahalli. We offer free same-day doorstep pickup, professional data wiping, and secure payment options via UPI, PhonePe, GPay, or cash.
                     </p>
                     <p className="text-muted-foreground">
-                      With over 5,000+ satisfied customers in Bangalore, Laptap is the most trusted platform for selling used MacBooks. Get an instant online quote, schedule a convenient pickup time, and receive payment within hours. No hidden charges, no bargaining - just transparent pricing and quick service.
+                      With over 5,000+ satisfied customers in Bangalore, Hulumart is the most trusted platform for selling used MacBooks. Get an instant online quote, schedule a convenient pickup time, and receive payment within hours. No hidden charges, no bargaining - just transparent pricing and quick service.
                     </p>
                   </div>
                 </div>
                 <div>
                   <h2 className="text-3xl font-bold mb-6">
-                    Why Choose Laptap to Sell MacBook in Bangalore?
+                    Why Choose Hulumart to Sell MacBook in Bangalore?
                   </h2>
                   <div className="space-y-4">
                     <div className="p-4 bg-card rounded-lg border">
@@ -269,7 +269,7 @@ export const PageClient = () => {
                 {[
                   {
                     q: "What is the best place to sell MacBook in Bangalore?",
-                    a: "Laptap is the most trusted platform to sell MacBook in Bangalore. We offer the highest resale value (15-20% more than competitors), free same-day doorstep pickup across all Bangalore areas including Koramangala, Indiranagar, Whitefield, and instant payment via UPI. Over 5000+ Bangalore residents have sold their MacBooks with us."
+                    a: "Hulumart is the most trusted platform to sell MacBook in Bangalore. We offer the highest resale value (15-20% more than competitors), free same-day doorstep pickup across all Bangalore areas including Koramangala, Indiranagar, Whitefield, and instant payment via UPI. Over 5000+ Bangalore residents have sold their MacBooks with us."
                   },
                   {
                     q: "How much can I get for my MacBook in Bangalore?",
@@ -288,7 +288,7 @@ export const PageClient = () => {
                     a: "Yes! We buy MacBooks in any condition in Bangalore - cracked screen, battery issues, water damage, keyboard problems, or non-functional. We accept MacBook Pro and MacBook Air with any defects. Price is adjusted based on condition. Free doorstep inspection and instant payment across all Bangalore areas."
                   },
                   {
-                    q: "Is selling MacBook in Bangalore safe with Laptap?",
+                    q: "Is selling MacBook in Bangalore safe with Hulumart?",
                     a: "Absolutely safe! We provide: 1) Verified technicians with ID proof for doorstep visits across Bangalore, 2) Professional data wiping certified by Apple standards, 3) Instant payment via secure UPI/bank transfer, 4) 4.9★ rating from 5000+ Bangalore customers. Your MacBook and data are 100% secure with us."
                   }
                 ].map((faq, index) => (

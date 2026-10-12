@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useLayoutEffect, useState, useMemo } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { Laptop, Monitor, Search, Loader2 } from "lucide-react";
 import Header from "@/components/Header";
@@ -64,6 +64,10 @@ export const SellClient = () => {
   // This eliminates the 1-3 frame gap where useParams() still returns the old URL.
   const [stepOverride, setStepOverride] = useState<Step | null>(null);
   const step = stepOverride ?? urlStep;
+
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, [step]);
 
   // Clear the override once the URL catches up
   useEffect(() => {

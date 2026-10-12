@@ -102,12 +102,12 @@ export const PageClient = () => {
           <section className="py-16 md:py-24 bg-muted/30">
             <div className="container max-w-4xl">
               <h2 className="text-3xl md:text-4xl font-bold mb-8">
-                Why Sell Your Acer Laptop Online with Laptap?
+                Why Sell Your Acer Laptop Online with Hulumart?
               </h2>
               
               <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
                 <p>
-                  Looking to sell your used Acer laptop? Laptap offers India's most trusted platform for selling Acer laptops online with instant cash payment. Whether you own an Acer Predator gaming powerhouse, a sleek Swift ultrabook, or a budget-friendly Aspire, we guarantee the best resale value.
+                  Looking to sell your used Acer laptop? Hulumart offers India's most trusted platform for selling Acer laptops online with instant cash payment. Whether you own an Acer Predator gaming powerhouse, a sleek Swift ultrabook, or a budget-friendly Aspire, we guarantee the best resale value.
                 </p>
 
                 <h3 className="text-2xl font-bold text-foreground mt-8">Best Price for Acer Laptops in India</h3>

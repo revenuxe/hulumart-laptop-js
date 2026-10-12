@@ -77,7 +77,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const signUp = async (email: string, password: string, fullName: string) => {
-    const redirectUrl = typeof window !== 'undefined' ? `${window.location.origin}/` : 'https://www.laptap.in/';
+    const redirectUrl = typeof window !== 'undefined' ? `${window.location.origin}/` : 'https://www.hulumart.com/';
     
     const { data, error } = await supabase.auth.signUp({
       email,

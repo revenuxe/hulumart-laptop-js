@@ -79,7 +79,7 @@ export const PageClient = () => {
                   </h2>
                   <div className="prose prose-slate">
                     <p className="text-muted-foreground mb-4">
-                      Looking to sell your Acer Predator gaming laptop? Laptap specializes in buying high-end gaming laptops and offers the most competitive prices for all Predator and Nitro models including Helios 300, Helios 16, Triton 500 SE, and the popular Nitro 5 and Nitro 16 series.
+                      Looking to sell your Acer Predator gaming laptop? Hulumart specializes in buying high-end gaming laptops and offers the most competitive prices for all Predator and Nitro models including Helios 300, Helios 16, Triton 500 SE, and the popular Nitro 5 and Nitro 16 series.
                     </p>
                     <p className="text-muted-foreground mb-4">
                       Acer Predator laptops are known for their excellent cooling systems and gaming performance. Whether you have the latest RTX 40-series Helios or an older GTX-powered Nitro, we understand gaming hardware and provide fair valuations that beat local dealers.
@@ -91,7 +91,7 @@ export const PageClient = () => {
                 </div>
                 <div>
                   <h2 className="text-3xl font-bold mb-6">
-                    Why Gamers Choose Laptap for Predator Resale
+                    Why Gamers Choose Hulumart for Predator Resale
                   </h2>
                   <div className="space-y-4">
                     <div className="p-4 bg-card rounded-lg border flex gap-4">

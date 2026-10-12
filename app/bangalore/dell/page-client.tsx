@@ -60,19 +60,19 @@ export const PageClient = () => {
                   </h2>
                   <div className="prose prose-slate">
                     <p className="text-muted-foreground mb-4">
-                      Looking to sell your Dell laptop in Bangalore? Laptap offers the most competitive prices for all Dell models including XPS 13, XPS 15, XPS 17, Inspiron, Latitude, Vostro, and Alienware gaming laptops. Whether you own a premium Dell XPS with 11th/12th/13th Gen Intel or an older Inspiron model, we provide fair valuations and instant cash.
+                      Looking to sell your Dell laptop in Bangalore? Hulumart offers the most competitive prices for all Dell models including XPS 13, XPS 15, XPS 17, Inspiron, Latitude, Vostro, and Alienware gaming laptops. Whether you own a premium Dell XPS with 11th/12th/13th Gen Intel or an older Inspiron model, we provide fair valuations and instant cash.
                     </p>
                     <p className="text-muted-foreground mb-4">
                       Our service covers all major localities in Bangalore - Koramangala, Indiranagar, Whitefield, Electronic City, HSR Layout, Marathahalli, BTM Layout, and more. We offer free same-day doorstep pickup, professional device inspection, secure data wiping, and instant payment via UPI, bank transfer, or cash.
                     </p>
                     <p className="text-muted-foreground">
-                      Trusted by thousands of Bangalore residents, Laptap makes selling Dell laptops quick and hassle-free. Get your instant quote online, schedule pickup at your convenience, and receive payment within hours. No hidden fees, no haggling - just transparent service.
+                      Trusted by thousands of Bangalore residents, Hulumart makes selling Dell laptops quick and hassle-free. Get your instant quote online, schedule pickup at your convenience, and receive payment within hours. No hidden fees, no haggling - just transparent service.
                     </p>
                   </div>
                 </div>
                 <div>
                   <h2 className="text-3xl font-bold mb-6">
-                    Why Sell Dell Laptop with Laptap in Bangalore?
+                    Why Sell Dell Laptop with Hulumart in Bangalore?
                   </h2>
                   <div className="space-y-4">
                     <div className="p-4 bg-card rounded-lg border">

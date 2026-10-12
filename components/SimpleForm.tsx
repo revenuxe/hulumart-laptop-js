@@ -42,17 +42,14 @@ const SimpleForm = ({ defaultSellingType, defaultModel, defaultModelId, onSucces
       const { data: { user } } = await supabase.auth.getUser();
       let orderNumber: string | undefined;
       if (isSellOrder) {
-        const { data: order, error } = await supabase.from("sell_requests").insert({
-            user_id: user?.id || null,
-            model_id: defaultModelId!,
-            age_months: 0,
-            condition: "good",
-            estimated_price: 0,
-            pincode: data.pincode || null,
-            config: { customer_name: data.name, customer_mobile: data.phone, booking_source: "model_selection" },
-          } as any).select("order_number").single();
+        const { data: receipt, error } = await (supabase as any).rpc("create_sell_booking", {
+            selected_model: defaultModelId!,
+            customer_name: data.name,
+            customer_phone: data.phone,
+            pickup_pincode: data.pincode,
+          });
         if (error) throw error;
-        orderNumber = order?.order_number;
+        orderNumber = receipt;
       } else {
         const { error } = await supabase.from("simple_forms").insert({ user_id: user?.id || null, name: data.name, phone: data.phone, selling_type: data.selling_type, model: data.model });
         if (error) throw error;

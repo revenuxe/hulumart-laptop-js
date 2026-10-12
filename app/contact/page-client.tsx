@@ -84,8 +84,8 @@ export const PageClient = () => {
                         </div>
                         <div>
                           <h3 className="font-semibold mb-1">Email</h3>
-                          <a href="mailto:laptap.in@gmail.com" className="text-primary hover:underline">
-                            laptap.in@gmail.com
+                          <a href="mailto:hulumart.com@gmail.com" className="text-primary hover:underline">
+                            hulumart.com@gmail.com
                           </a>
                         </div>
                       </div>
@@ -127,7 +127,7 @@ export const PageClient = () => {
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Laptap Location - HBR Layout, Bangalore"
+                      title="Hulumart Location - HBR Layout, Bangalore"
                     ></iframe>
                   </div>
                 </div>

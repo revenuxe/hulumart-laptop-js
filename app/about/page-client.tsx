@@ -25,7 +25,7 @@ export const PageClient = () => {
     label: "Quality Assured"
   }];
   return <>
-      
+
 
       <div className="min-h-screen flex flex-col">
         <Header />
@@ -34,10 +34,10 @@ export const PageClient = () => {
           <section className="py-16 md:py-24 bg-gradient-to-br from-primary/5 to-secondary/5">
             <div className="container">
               <div className="max-w-3xl mx-auto text-center">
-                <h1 className="text-4xl md:text-5xl font-bold mb-6">About Laptap</h1>
+                <h1 className="text-4xl md:text-5xl font-bold mb-6">About Hulumart</h1>
                 <p className="text-lg text-muted-foreground mb-8">
-                  We have been in business for 7 years, serving 500+ happy customers and selling more than 1000+ units. 
-                  Laptap is trusted for quality, affordability, and customer satisfaction in refurbished and used laptops.
+                  We have been in business for 7 years, serving 500+ happy customers and selling more than 1000+ units.
+                  Hulumart is trusted for quality, affordability, and customer satisfaction in refurbished and used laptops.
                 </p>
               </div>
             </div>
@@ -67,18 +67,18 @@ export const PageClient = () => {
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Founded in 2018, Laptap began with a simple mission: to make quality technology accessible to everyone. 
-                    Starting from our location in HBR Layout, Bangalore, we've grown to become one of the most trusted names 
+                    Founded in 2018, Hulumart began with a simple mission: to make quality technology accessible to everyone.
+                    Starting from our location in HBR Layout, Bangalore, we've grown to become one of the most trusted names
                     in refurbished and pre-owned laptops and desktops.
                   </p>
                   <p>
-                    Over the past 7 years, we've helped over 500 customers find the perfect device for their needs, whether 
-                    for work, study, or entertainment. Our commitment to quality means every device undergoes rigorous testing 
+                    Over the past 7 years, we've helped over 500 customers find the perfect device for their needs, whether
+                    for work, study, or entertainment. Our commitment to quality means every device undergoes rigorous testing
                     and verification before reaching our customers.
                   </p>
                   <p>
-                    With over 1000+ units sold and countless satisfied customers, we continue to set the standard for 
-                    reliability, affordability, and customer service in the pre-owned tech market. Our team of experienced 
+                    With over 1000+ units sold and countless satisfied customers, we continue to set the standard for
+                    reliability, affordability, and customer service in the pre-owned tech market. Our team of experienced
                     technicians ensures that every transaction is smooth, transparent, and trustworthy.
                   </p>
                 </div>
@@ -132,9 +132,9 @@ export const PageClient = () => {
                   <CardContent className="px-8 py-5 flex items-center gap-3">
                     <p className="text-sm text-muted-foreground">
                       Platform designed & developed by{" "}
-                      <a 
-                        href="https://revenuxe.com" 
-                        target="_blank" 
+                      <a
+                        href="https://revenuxe.com"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="font-semibold text-primary hover:underline"
                       >

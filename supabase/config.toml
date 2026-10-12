@@ -1,4 +1,8 @@
-project_id = "pdwdonojugtersushxtv"
+project_id = "snnnurtjzdkjweoewrwf"
+
+[auth]
+site_url = "https://www.hulumart.com"
+additional_redirect_urls = ["https://www.hulumart.com/**", "http://localhost:3000/**"]
 
 [functions.generate-blog]
 verify_jwt = true

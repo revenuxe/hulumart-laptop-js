@@ -31,7 +31,7 @@ const TrustSignals = () => {
       <div className="container">
         <div className="mx-auto max-w-3xl text-center mb-12">
           <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-            Why Choose Laptap?
+            Why Choose Hulumart?
           </h2>
           <p className="text-lg text-muted-foreground">
             Trusted by thousands of satisfied customers

@@ -2,39 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .blog-markdown {
+    @apply text-base leading-8 sm:text-lg;
+    overflow-wrap: anywhere;
+  }
+  .blog-markdown h2 {
+    @apply mb-5 mt-12 scroll-mt-32 text-2xl font-bold leading-tight tracking-tight sm:text-3xl;
+  }
+  .blog-markdown h3 {
+    @apply mb-3 mt-8 scroll-mt-32 text-xl font-semibold leading-snug;
+  }
+  .blog-markdown p { @apply mb-5; }
+  .blog-markdown a { @apply font-medium text-primary underline decoration-primary/30 underline-offset-4 hover:decoration-primary; }
+  .blog-markdown ul { @apply mb-6 ml-6 list-disc space-y-2; }
+  .blog-markdown ol { @apply mb-6 ml-6 list-decimal space-y-2; }
+  .blog-markdown li::marker { @apply font-semibold text-primary; }
+  .blog-markdown li p { @apply mb-2; }
+  .blog-markdown blockquote { @apply my-8 rounded-r-xl border-l-4 border-secondary bg-muted/40 p-5; }
+  .blog-markdown blockquote p:last-child { @apply mb-0; }
+  .blog-markdown hr { @apply my-9 border-border; }
+  .blog-markdown code { @apply rounded bg-muted px-1.5 py-1 text-sm; }
+  .blog-markdown pre { @apply my-6 overflow-x-auto rounded-xl bg-muted p-5 text-sm; }
+  .blog-markdown pre code { @apply bg-transparent p-0; }
+  .blog-markdown table { @apply my-6 w-full border-collapse text-left text-sm; }
+  .blog-markdown th { @apply border bg-muted p-3 font-semibold; }
+  .blog-markdown td { @apply border p-3 align-top; }
+}
+
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 215 25% 27%;
+    --background: 214 60% 99%;
+    --foreground: 215 100% 17%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 27%;
+    --card-foreground: 215 100% 17%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 27%;
+    --popover-foreground: 215 100% 17%;
 
-    --primary: 207 65% 37%;
+    --primary: 214 100% 43%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 73 58% 60%;
-    --secondary-foreground: 215 25% 27%;
+    --secondary: 141 100% 31%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 14% 95%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 214 60% 96%;
+    --muted-foreground: 215 22% 42%;
 
-    --accent: 73 58% 60%;
-    --accent-foreground: 215 25% 27%;
+    --accent: 141 100% 31%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 14% 89%;
-    --input: 210 14% 89%;
-    --ring: 207 65% 37%;
+    --border: 214 30% 88%;
+    --input: 214 30% 88%;
+    --ring: 214 100% 43%;
 
     --radius: 1rem;
 
@@ -42,7 +70,7 @@ All colors MUST be HSL.
 
     --sidebar-foreground: 240 5.3% 26.1%;
 
-    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary: 214 100% 43%;
 
     --sidebar-primary-foreground: 0 0% 98%;
 
@@ -52,45 +80,45 @@ All colors MUST be HSL.
 
     --sidebar-border: 220 13% 91%;
 
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 214 100% 43%;
   }
 
   .dark {
-    --background: 215 25% 27%;
+    --background: 215 100% 17%;
     --foreground: 0 0% 100%;
 
-    --card: 215 25% 27%;
+    --card: 215 100% 17%;
     --card-foreground: 0 0% 100%;
 
-    --popover: 215 25% 27%;
+    --popover: 215 100% 17%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 207 65% 37%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 214 100% 70%;
+    --primary-foreground: 215 100% 17%;
 
-    --secondary: 73 58% 60%;
-    --secondary-foreground: 215 25% 27%;
+    --secondary: 141 100% 31%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 215 20% 35%;
-    --muted-foreground: 210 14% 83%;
+    --muted: 215 35% 24%;
+    --muted-foreground: 214 35% 82%;
 
-    --accent: 73 58% 60%;
-    --accent-foreground: 215 25% 27%;
+    --accent: 141 100% 31%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 215 20% 35%;
-    --input: 215 20% 35%;
-    --ring: 207 65% 37%;
+    --border: 215 35% 24%;
+    --input: 215 35% 24%;
+    --ring: 214 100% 43%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary: 214 100% 70%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 240 3.7% 15.9%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 214 100% 43%;
   }
 }
 

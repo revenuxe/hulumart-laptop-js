@@ -50,9 +50,9 @@ const PageLoader = () => {
         {/* Logo with pulse ring */}
         <div className="relative">
           <img
-            src="/assets/loader-logo.ico"
-            alt="Loading..."
-            className="h-16 w-16 animate-pulse"
+            src="/assets/hulumart-logo.avif"
+            alt="Hulumart loading"
+            className="h-auto w-40 object-contain animate-pulse"
           />
           <div
             className="absolute inset-0 rounded-full animate-ping"

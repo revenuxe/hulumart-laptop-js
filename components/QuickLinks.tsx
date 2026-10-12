@@ -30,7 +30,7 @@ const QuickLinks = () => {
     { text: "Laptop Repair Services", url: "/repair" },
     { text: "Track Order", url: "/track/order" },
     { text: "Selling Guide", url: "/blog/sell-used-laptop-bangalore" },
-    { text: "About Laptap", url: "/about" },
+    { text: "About Hulumart", url: "/about" },
     { text: "Contact Us", url: "/contact" },
     { text: "Blog", url: "/blog" },
   ];

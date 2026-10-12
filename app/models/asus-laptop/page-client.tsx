@@ -102,12 +102,12 @@ export const PageClient = () => {
           <section className="py-16 md:py-24 bg-muted/30">
             <div className="container max-w-4xl">
               <h2 className="text-3xl md:text-4xl font-bold mb-8">
-                Why Sell Your Asus Laptop Online with Laptap?
+                Why Sell Your Asus Laptop Online with Hulumart?
               </h2>
               
               <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
                 <p>
-                  Looking to sell your used Asus laptop? Laptap offers India's most trusted platform for selling Asus laptops online with instant cash payment. Whether you own an Asus ROG gaming beast, a sleek ZenBook ultrabook, or a reliable VivoBook, we guarantee the best resale value in the market.
+                  Looking to sell your used Asus laptop? Hulumart offers India's most trusted platform for selling Asus laptops online with instant cash payment. Whether you own an Asus ROG gaming beast, a sleek ZenBook ultrabook, or a reliable VivoBook, we guarantee the best resale value in the market.
                 </p>
 
                 <h3 className="text-2xl font-bold text-foreground mt-8">Best Price for Asus Laptops in India</h3>
