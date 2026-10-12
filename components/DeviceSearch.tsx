@@ -20,6 +20,7 @@ interface Model {
     brands: {
       name: string;
       slug: string;
+      categories: { slug: string };
     };
   };
 }
@@ -88,14 +89,15 @@ export function DeviceSearch() {
             brand_id,
             brands (
               name,
-              slug
+              slug,
+              categories (slug)
             )
           )
         `)
         .eq('active', true);
       
       if (data) {
-        const sortedModels = (data as Model[]).sort((a, b) => {
+        const sortedModels = (data as Model[]).filter(model => model.series?.brands?.categories && ["laptop", "desktop"].includes(model.series.brands.categories.slug)).sort((a, b) => {
           const yearA = parseInt(a.name.match(/\b(19|20)\d{2}\b/)?.[0] || '0');
           const yearB = parseInt(b.name.match(/\b(19|20)\d{2}\b/)?.[0] || '0');
           return yearB - yearA;
@@ -125,7 +127,7 @@ export function DeviceSearch() {
   };
 
   const handleModelClick = (model: Model) => {
-    router.push(`/sell/laptop/${model.series.brands.slug}/${model.series.slug}/${model.slug}`);
+    router.push(`/sell/${model.series.brands.categories.slug}/${model.series.brands.slug}/${model.series.slug}/${model.slug}`);
     setSearchQuery('');
     setShowResults(false);
   };
